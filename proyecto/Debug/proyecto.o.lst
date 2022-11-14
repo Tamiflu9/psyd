@@ -1,0 +1,3354 @@
+   1              		.cpu arm7tdmi
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 18, 4
+  11              		.file	"proyecto.c"
+  21              	.Ltext0:
+  22              		.file 1 "../proyecto.c"
+ 2174              		.align	2
+ 2177              	firemen:
+ 2178 0000 4000     		.short	64
+ 2179 0002 2000     		.short	32
+ 2180 0004 0300     		.short	3
+ 2181 0006 0000     		.space	2
+ 2182 0008 2000     		.short	32
+ 2183 000a B000     		.short	176
+ 2184 000c 0000260C 		.word	203816960
+ 2185 0010 8000     		.short	128
+ 2186 0012 B000     		.short	176
+ 2187 0014 0000260C 		.word	203816960
+ 2188 0018 E000     		.short	224
+ 2189 001a B000     		.short	176
+ 2190 001c 0000260C 		.word	203816960
+ 2191              		.global	dummy
+ 2192              		.align	2
+ 2195              	dummy:
+ 2196 0020 2000     		.short	32
+ 2197 0022 2000     		.short	32
+ 2198 0024 1300     		.short	19
+ 2199 0026 0000     		.space	2
+ 2200 0028 0000     		.short	0
+ 2201 002a 4000     		.short	64
+ 2202 002c 0000270C 		.word	203882496
+ 2203 0030 1000     		.short	16
+ 2204 0032 6000     		.short	96
+ 2205 0034 0004270C 		.word	203883520
+ 2206 0038 2000     		.short	32
+ 2207 003a 8000     		.short	128
+ 2208 003c 0008270C 		.word	203884544
+ 2209 0040 3000     		.short	48
+ 2210 0042 A000     		.short	160
+ 2211 0044 000C270C 		.word	203885568
+ 2212 0048 4000     		.short	64
+ 2213 004a 8000     		.short	128
+ 2214 004c 0000270C 		.word	203882496
+ 2215 0050 5000     		.short	80
+ 2216 0052 6000     		.short	96
+ 2217 0054 0004270C 		.word	203883520
+ 2218 0058 6000     		.short	96
+ 2219 005a 4000     		.short	64
+ 2220 005c 0008270C 		.word	203884544
+ 2221 0060 7000     		.short	112
+ 2222 0062 6000     		.short	96
+ 2223 0064 000C270C 		.word	203885568
+ 2224 0068 8000     		.short	128
+ 2225 006a 8000     		.short	128
+ 2226 006c 0000270C 		.word	203882496
+ 2227 0070 9000     		.short	144
+ 2228 0072 A000     		.short	160
+ 2229 0074 0004270C 		.word	203883520
+ 2230 0078 A000     		.short	160
+ 2231 007a 8000     		.short	128
+ 2232 007c 0008270C 		.word	203884544
+ 2233 0080 B000     		.short	176
+ 2234 0082 6000     		.short	96
+ 2235 0084 000C270C 		.word	203885568
+ 2236 0088 C000     		.short	192
+ 2237 008a 4000     		.short	64
+ 2238 008c 0000270C 		.word	203882496
+ 2239 0090 D000     		.short	208
+ 2240 0092 6000     		.short	96
+ 2241 0094 0004270C 		.word	203883520
+ 2242 0098 E000     		.short	224
+ 2243 009a 8000     		.short	128
+ 2244 009c 0008270C 		.word	203884544
+ 2245 00a0 F000     		.short	240
+ 2246 00a2 A000     		.short	160
+ 2247 00a4 000C270C 		.word	203885568
+ 2248 00a8 0001     		.short	256
+ 2249 00aa 8000     		.short	128
+ 2250 00ac 0000270C 		.word	203882496
+ 2251 00b0 1001     		.short	272
+ 2252 00b2 6000     		.short	96
+ 2253 00b4 0004270C 		.word	203883520
+ 2254 00b8 2001     		.short	288
+ 2255 00ba 4000     		.short	64
+ 2256 00bc 0008270C 		.word	203884544
+ 2257              		.global	crash
+ 2258              		.align	2
+ 2261              	crash:
+ 2262 00c0 4000     		.short	64
+ 2263 00c2 2000     		.short	32
+ 2264 00c4 0300     		.short	3
+ 2265 00c6 0000     		.space	2
+ 2266 00c8 2000     		.short	32
+ 2267 00ca D000     		.short	208
+ 2268 00cc 0008260C 		.word	203819008
+ 2269 00d0 8000     		.short	128
+ 2270 00d2 D000     		.short	208
+ 2271 00d4 0008260C 		.word	203819008
+ 2272 00d8 E000     		.short	224
+ 2273 00da D000     		.short	208
+ 2274 00dc 0008260C 		.word	203819008
+ 2275              		.global	life
+ 2276              		.align	2
+ 2279              	life:
+ 2280 00e0 1000     		.short	16
+ 2281 00e2 1000     		.short	16
+ 2282 00e4 0300     		.short	3
+ 2283 00e6 0000     		.space	2
+ 2284 00e8 0800     		.short	8
+ 2285 00ea 0800     		.short	8
+ 2286 00ec 0010270C 		.word	203886592
+ 2287 00f0 1800     		.short	24
+ 2288 00f2 0800     		.short	8
+ 2289 00f4 0010270C 		.word	203886592
+ 2290 00f8 2800     		.short	40
+ 2291 00fa 0800     		.short	8
+ 2292 00fc 0010270C 		.word	203886592
+ 2293              		.comm	fifo,2056,4
+ 2294              		.comm	gameOver,1,1
+ 2295              		.comm	dummyPos,1,1
+ 2296              		.comm	count,2,2
+ 2297              		.comm	scancode,4,4
+ 2298              		.comm	firemanPos,1,1
+ 2299              		.global	hearts
+ 2300              		.bss
+ 2303              	hearts:
+ 2304 0000 00       		.space	1
+ 2305              		.comm	win_game,1,1
+ 2306              		.comm	lose_game,1,1
+ 2307              		.comm	finalizar,1,1
+ 2308              		.comm	caida,1,1
+ 2309              		.comm	music,1,1
+ 2310              		.comm	flagPbs,1,1
+ 2311              		.section	.rodata
+ 2312              		.align	2
+ 2313              	.LC0:
+ 2314 0100 4D454E55 		.ascii	"MENU. OPCIONES:\000"
+ 2314      2E204F50 
+ 2314      43494F4E 
+ 2314      45533A00 
+ 2315              		.align	2
+ 2316              	.LC1:
+ 2317 0110 302E204A 		.ascii	"0. JUGAR\000"
+ 2317      55474152 
+ 2317      00
+ 2318 0119 000000   		.align	2
+ 2319              	.LC2:
+ 2320 011c 342E2053 		.ascii	"4. SALIR\000"
+ 2320      414C4952 
+ 2320      00
+ 2321 0125 000000   		.align	2
+ 2322              	.LC3:
+ 2323 0128 5465636C 		.ascii	"Teclas\012\000"
+ 2323      61730A00 
+ 2324              		.align	2
+ 2325              	.LC4:
+ 2326 0130 5465636C 		.ascii	"Tecla 0 para jugar\012\000"
+ 2326      61203020 
+ 2326      70617261 
+ 2326      206A7567 
+ 2326      61720A00 
+ 2327              		.align	2
+ 2328              	.LC5:
+ 2329 0144 5465636C 		.ascii	"Tecla 4 para salir\012\000"
+ 2329      61203420 
+ 2329      70617261 
+ 2329      2073616C 
+ 2329      69720A00 
+ 2330              		.align	2
+ 2331              	.LC6:
+ 2332 0158 5465636C 		.ascii	"Tecla 2 para mover izquierda\012\000"
+ 2332      61203220 
+ 2332      70617261 
+ 2332      206D6F76 
+ 2332      65722069 
+ 2333 0176 0000     		.align	2
+ 2334              	.LC7:
+ 2335 0178 5465636C 		.ascii	"Tecla 3 para mover derecha\012\000"
+ 2335      61203320 
+ 2335      70617261 
+ 2335      206D6F76 
+ 2335      65722064 
+ 2336              		.align	2
+ 2337              	.LC8:
+ 2338 0194 626F746F 		.ascii	"boton izquierdo pausa\012\000"
+ 2338      6E20697A 
+ 2338      71756965 
+ 2338      72646F20 
+ 2338      70617573 
+ 2339 01ab 00       		.align	2
+ 2340              	.LC9:
+ 2341 01ac 626F746F 		.ascii	"boton derecho play\012\000"
+ 2341      6E206465 
+ 2341      72656368 
+ 2341      6F20706C 
+ 2341      61790A00 
+ 2342              		.align	2
+ 2343              	.LC10:
+ 2344 01c0 68617320 		.ascii	"has pulsado \012\000"
+ 2344      70756C73 
+ 2344      61646F20 
+ 2344      0A00
+ 2345              		.text
+ 2346              		.align	2
+ 2347              		.global	main
+ 2349              	main:
+ 2350              	.LFB0:
+   1:../proyecto.c **** 
+   2:../proyecto.c **** #include <s3c44b0x.h>
+   3:../proyecto.c **** #include <s3cev40.h>
+   4:../proyecto.c **** #include <common_types.h>
+   5:../proyecto.c **** #include <system.h>
+   6:../proyecto.c **** #include <timers.h>
+   7:../proyecto.c **** #include <uart.h>
+   8:../proyecto.c **** #include <lcd.h>
+   9:../proyecto.c **** #include <keypad.h>
+  10:../proyecto.c **** #include <uda1341ts.h>
+  11:../proyecto.c **** #include <iis.h>
+  12:../proyecto.c **** #include <pbs.h>
+  13:../proyecto.c **** 
+  14:../proyecto.c **** #define TICKS_PER_SEC (100)
+  15:../proyecto.c **** 
+  16:../proyecto.c **** /* Declaración de graficos */
+  17:../proyecto.c **** 
+  18:../proyecto.c **** #define LANDSCAPE  ((uint8 *)0x0c250000)
+  19:../proyecto.c **** #define FIREMEN    ((uint8 *)0x0c260000)
+  20:../proyecto.c **** #define CRASH      ((uint8 *)0x0c260800)
+  21:../proyecto.c **** #define DUMMY_0    ((uint8 *)0x0c270000)
+  22:../proyecto.c **** #define DUMMY_90   ((uint8 *)0x0c270400)
+  23:../proyecto.c **** #define DUMMY_180  ((uint8 *)0x0c270800)
+  24:../proyecto.c **** #define DUMMY_270  ((uint8 *)0x0c270C00)
+  25:../proyecto.c **** #define LIFE       ((uint8 *)0x0c271000)
+  26:../proyecto.c **** #define MUSIC 	   ((int16 *)0x0c47a000)
+  27:../proyecto.c **** 
+  28:../proyecto.c **** #define MUSIC_SIZE 	   (512000)
+  29:../proyecto.c **** 
+  30:../proyecto.c **** typedef struct plots {
+  31:../proyecto.c ****     uint16 x;               // Posición x en donde se pinta el gráfico
+  32:../proyecto.c ****     uint16 y;               // Posición y en donde se pinta el gráfico
+  33:../proyecto.c ****     uint8 *plot;            // Puntero al BMP que contiene el gráfico
+  34:../proyecto.c **** } plots_t;
+  35:../proyecto.c **** 
+  36:../proyecto.c **** typedef struct sprite {
+  37:../proyecto.c ****     uint16 width;           // Anchura del gráfico en pixeles
+  38:../proyecto.c ****     uint16 height;          // Altura del gráfico en pixeles
+  39:../proyecto.c ****     uint16 num_plots;       // Número de posiciones diferentes en donde pintar el gráfico
+  40:../proyecto.c ****     plots_t plots[];        // Array de posiciones en donde pintar el gráfico
+  41:../proyecto.c **** } sprite_t;
+  42:../proyecto.c **** 
+  43:../proyecto.c **** const sprite_t firemen = 
+  44:../proyecto.c **** {
+  45:../proyecto.c ****     64, 32, 3,                      // Los bomberos de tamaño 64x32 se pintan en 3 posiciones disti
+  46:../proyecto.c ****     {
+  47:../proyecto.c ****         {  32, 176, FIREMEN },
+  48:../proyecto.c ****         { 128, 176, FIREMEN },
+  49:../proyecto.c ****         { 224, 176, FIREMEN }
+  50:../proyecto.c ****     }
+  51:../proyecto.c **** };
+  52:../proyecto.c **** 
+  53:../proyecto.c **** const sprite_t dummy = 
+  54:../proyecto.c **** {
+  55:../proyecto.c ****     32, 32, 19,                    // Los dummies de tamaño 32x32 se pintan en 19 posiciones distin
+  56:../proyecto.c ****     {
+  57:../proyecto.c ****         {   0,  64, DUMMY_0   },
+  58:../proyecto.c ****         {  16,  96, DUMMY_90  },
+  59:../proyecto.c ****         {  32, 128, DUMMY_180 },// pos 2
+  60:../proyecto.c ****         {  48, 160, DUMMY_270 },
+  61:../proyecto.c ****         {  64, 128, DUMMY_0   },
+  62:../proyecto.c ****         {  80,  96, DUMMY_90  },
+  63:../proyecto.c ****         {  96,  64, DUMMY_180 },
+  64:../proyecto.c ****         { 112,  96, DUMMY_270 },
+  65:../proyecto.c ****         { 128, 128, DUMMY_0   },// pos 8
+  66:../proyecto.c ****         { 144, 160, DUMMY_90  },
+  67:../proyecto.c ****         { 160, 128, DUMMY_180 },
+  68:../proyecto.c ****         { 176,  96, DUMMY_270 },
+  69:../proyecto.c ****         { 192,  64, DUMMY_0   },
+  70:../proyecto.c ****         { 208,  96, DUMMY_90  },
+  71:../proyecto.c ****         { 224, 128, DUMMY_180 },// pos 14
+  72:../proyecto.c ****         { 240, 160, DUMMY_270 },
+  73:../proyecto.c ****         { 256, 128, DUMMY_0   },
+  74:../proyecto.c ****         { 272, 96,  DUMMY_90  },
+  75:../proyecto.c ****         { 288, 64,  DUMMY_180 }
+  76:../proyecto.c ****     }
+  77:../proyecto.c **** };
+  78:../proyecto.c **** 
+  79:../proyecto.c **** const sprite_t crash = 
+  80:../proyecto.c **** {
+  81:../proyecto.c ****     64, 32, 3,                     // Los dummies estrellados de tamaño 64x32 se pintan en 3 posici
+  82:../proyecto.c ****     {
+  83:../proyecto.c ****         {   32, 208, CRASH },
+  84:../proyecto.c ****         {  128, 208, CRASH },
+  85:../proyecto.c ****         {  224, 208, CRASH }
+  86:../proyecto.c ****     }
+  87:../proyecto.c **** };
+  88:../proyecto.c **** 
+  89:../proyecto.c **** const sprite_t life =
+  90:../proyecto.c **** {
+  91:../proyecto.c ****     16, 16, 3,                    // Los corazones estrellados de tamaño 16x16 se pintan en 3 posic
+  92:../proyecto.c ****     {
+  93:../proyecto.c ****         {   8, 8, LIFE },
+  94:../proyecto.c ****         {  24, 8, LIFE },
+  95:../proyecto.c ****         {  40, 8, LIFE }
+  96:../proyecto.c ****     }
+  97:../proyecto.c **** };
+  98:../proyecto.c **** 
+  99:../proyecto.c **** /* Declaración de fifo de punteros a funciones */
+ 100:../proyecto.c **** 
+ 101:../proyecto.c **** #define BUFFER_LEN   (512)
+ 102:../proyecto.c **** 
+ 103:../proyecto.c **** typedef void (*pf_t)(void);
+ 104:../proyecto.c **** 
+ 105:../proyecto.c **** typedef struct fifo {
+ 106:../proyecto.c ****     uint16 head;
+ 107:../proyecto.c ****     uint16 tail;
+ 108:../proyecto.c ****     uint16 size;
+ 109:../proyecto.c ****     pf_t buffer[BUFFER_LEN];
+ 110:../proyecto.c **** } fifo_t;
+ 111:../proyecto.c **** 
+ 112:../proyecto.c **** void fifo_init( void );
+ 113:../proyecto.c **** void fifo_enqueue( pf_t pf );
+ 114:../proyecto.c **** pf_t fifo_dequeue( void );
+ 115:../proyecto.c **** boolean fifo_is_empty( void );
+ 116:../proyecto.c **** boolean fifo_is_full( void );
+ 117:../proyecto.c **** 
+ 118:../proyecto.c **** /* Declaración de recursos */
+ 119:../proyecto.c **** 
+ 120:../proyecto.c **** volatile fifo_t fifo;       // Cola de tareas
+ 121:../proyecto.c **** boolean gameOver;           // Flag de señalización del fin del juego
+ 122:../proyecto.c **** 
+ 123:../proyecto.c **** /* Declaración de variables */
+ 124:../proyecto.c **** 
+ 125:../proyecto.c **** uint8 dummyPos;     // Posición del dummy 
+ 126:../proyecto.c **** uint16 count;       // Número de dummies salvados
+ 127:../proyecto.c **** 
+ 128:../proyecto.c **** /* Declaración de funciones */
+ 129:../proyecto.c **** 
+ 130:../proyecto.c **** void dummy_init( void );                                    // Inicializa la posición del dummy y l
+ 131:../proyecto.c **** void count_init( void );                                    // Inicializa el contador de dummies sa
+ 132:../proyecto.c **** void sprite_plot( sprite_t const *sprite, uint16 pos );     // Dibuja el gráfico en la posición ind
+ 133:../proyecto.c **** void sprite_clear( sprite_t const *sprite, uint16 pos );    // Borra el gráfico pintado en la posic
+ 134:../proyecto.c **** 
+ 135:../proyecto.c **** /* Declaración de tareas */
+ 136:../proyecto.c **** 
+ 137:../proyecto.c **** void dummy_move( void );    // Mueve el dummy
+ 138:../proyecto.c **** void count_inc( void );     // Incrementa el contador de dummies salvados
+ 139:../proyecto.c **** 
+ 140:../proyecto.c **** /* Declaración de RTI */
+ 141:../proyecto.c **** 
+ 142:../proyecto.c **** void isr_tick( void ) __attribute__ ((interrupt ("IRQ")));
+ 143:../proyecto.c **** 
+ 144:../proyecto.c **** 
+ 145:../proyecto.c **** /* variables añadidas */
+ 146:../proyecto.c **** 
+ 147:../proyecto.c **** uint32 scancode;
+ 148:../proyecto.c **** uint8 firemanPos;
+ 149:../proyecto.c **** uint8 hearts = 0;
+ 150:../proyecto.c **** boolean win_game;
+ 151:../proyecto.c **** boolean lose_game;
+ 152:../proyecto.c **** boolean finalizar;
+ 153:../proyecto.c **** uint8 caida;
+ 154:../proyecto.c **** boolean music;
+ 155:../proyecto.c **** volatile boolean flagPbs;
+ 156:../proyecto.c **** 
+ 157:../proyecto.c **** 
+ 158:../proyecto.c **** /* funciones añadidas */
+ 159:../proyecto.c **** 
+ 160:../proyecto.c **** void start_game( void );
+ 161:../proyecto.c **** void teclaMoveFireman ( void );
+ 162:../proyecto.c **** void lose_life( void );
+ 163:../proyecto.c **** void init_fireman( void );
+ 164:../proyecto.c **** void exit_game( void );
+ 165:../proyecto.c **** void win( void );
+ 166:../proyecto.c **** void lose( void );
+ 167:../proyecto.c **** void start_play( void );
+ 168:../proyecto.c **** void initMusic( void );
+ 169:../proyecto.c **** 
+ 170:../proyecto.c **** /*******************************************************************/
+ 171:../proyecto.c **** 
+ 172:../proyecto.c **** void main( void )
+ 173:../proyecto.c **** {
+ 2351              		.loc 1 173 0
+ 2352              		.cfi_startproc
+ 2353              		@ Function supports interworking.
+ 2354              		@ args = 0, pretend = 0, frame = 8
+ 2355              		@ frame_needed = 1, uses_anonymous_args = 0
+ 2356 0000 0DC0A0E1 		mov	ip, sp
+ 2357              	.LCFI0:
+ 2358              		.cfi_def_cfa_register 12
+ 2359 0004 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 2360 0008 04B04CE2 		sub	fp, ip, #4
+ 2361              		.cfi_offset 14, -8
+ 2362              		.cfi_offset 13, -12
+ 2363              		.cfi_offset 11, -16
+ 2364              	.LCFI1:
+ 2365              		.cfi_def_cfa 11, 4
+ 2366 000c 10D04DE2 		sub	sp, sp, #16
+ 174:../proyecto.c ****     pf_t pf;
+ 175:../proyecto.c ****     
+ 176:../proyecto.c ****     sys_init();
+ 2367              		.loc 1 176 0
+ 2368 0010 FEFFFFEB 		bl	sys_init
+ 177:../proyecto.c ****     timers_init();
+ 2369              		.loc 1 177 0
+ 2370 0014 FEFFFFEB 		bl	timers_init
+ 178:../proyecto.c ****     uart0_init();
+ 2371              		.loc 1 178 0
+ 2372 0018 FEFFFFEB 		bl	uart0_init
+ 179:../proyecto.c ****     lcd_init();
+ 2373              		.loc 1 179 0
+ 2374 001c FEFFFFEB 		bl	lcd_init
+ 180:../proyecto.c ****     keypad_init();
+ 2375              		.loc 1 180 0
+ 2376 0020 FEFFFFEB 		bl	keypad_init
+ 181:../proyecto.c **** 
+ 182:../proyecto.c ****     uda1341ts_init();
+ 2377              		.loc 1 182 0
+ 2378 0024 FEFFFFEB 		bl	uda1341ts_init
+ 183:../proyecto.c ****     
+ 184:../proyecto.c ****     iis_init(IIS_DMA);
+ 2379              		.loc 1 184 0
+ 2380 0028 0100A0E3 		mov	r0, #1
+ 2381 002c FEFFFFEB 		bl	iis_init
+ 185:../proyecto.c **** 
+ 186:../proyecto.c ****     lcd_on();
+ 2382              		.loc 1 186 0
+ 2383 0030 FEFFFFEB 		bl	lcd_on
+ 187:../proyecto.c ****     lcd_clear();
+ 2384              		.loc 1 187 0
+ 2385 0034 FEFFFFEB 		bl	lcd_clear
+ 188:../proyecto.c **** 
+ 189:../proyecto.c ****     lose_game = FALSE;
+ 2386              		.loc 1 189 0
+ 2387 0038 34329FE5 		ldr	r3, .L13
+ 2388 003c 0020A0E3 		mov	r2, #0
+ 2389 0040 0020C3E5 		strb	r2, [r3, #0]
+ 190:../proyecto.c ****     lcd_draw_box(10, 10, 300, 200, BLACK, 4);//menu
+ 2390              		.loc 1 190 0
+ 2391 0044 0F30A0E3 		mov	r3, #15
+ 2392 0048 00308DE5 		str	r3, [sp, #0]
+ 2393 004c 0430A0E3 		mov	r3, #4
+ 2394 0050 04308DE5 		str	r3, [sp, #4]
+ 2395 0054 0A00A0E3 		mov	r0, #10
+ 2396 0058 0A10A0E3 		mov	r1, #10
+ 2397 005c 4B2FA0E3 		mov	r2, #300
+ 2398 0060 C830A0E3 		mov	r3, #200
+ 2399 0064 FEFFFFEB 		bl	lcd_draw_box
+ 191:../proyecto.c **** 	lcd_draw_box(10, 60, 300, 60, BLACK, 3);//barra
+ 2400              		.loc 1 191 0
+ 2401 0068 0F30A0E3 		mov	r3, #15
+ 2402 006c 00308DE5 		str	r3, [sp, #0]
+ 2403 0070 0330A0E3 		mov	r3, #3
+ 2404 0074 04308DE5 		str	r3, [sp, #4]
+ 2405 0078 0A00A0E3 		mov	r0, #10
+ 2406 007c 3C10A0E3 		mov	r1, #60
+ 2407 0080 4B2FA0E3 		mov	r2, #300
+ 2408 0084 3C30A0E3 		mov	r3, #60
+ 2409 0088 FEFFFFEB 		bl	lcd_draw_box
+ 192:../proyecto.c **** 
+ 193:../proyecto.c **** 	lcd_puts_x2(20, 20, BLACK, "MENU. OPCIONES:");
+ 2410              		.loc 1 193 0
+ 2411 008c 1400A0E3 		mov	r0, #20
+ 2412 0090 1410A0E3 		mov	r1, #20
+ 2413 0094 0F20A0E3 		mov	r2, #15
+ 2414 0098 D8319FE5 		ldr	r3, .L13+4
+ 2415 009c FEFFFFEB 		bl	lcd_puts_x2
+ 194:../proyecto.c **** 	lcd_puts_x2(50, 80, BLACK, "0. JUGAR");
+ 2416              		.loc 1 194 0
+ 2417 00a0 3200A0E3 		mov	r0, #50
+ 2418 00a4 5010A0E3 		mov	r1, #80
+ 2419 00a8 0F20A0E3 		mov	r2, #15
+ 2420 00ac C8319FE5 		ldr	r3, .L13+8
+ 2421 00b0 FEFFFFEB 		bl	lcd_puts_x2
+ 195:../proyecto.c **** 	lcd_puts_x2(50, 110, BLACK, "4. SALIR");
+ 2422              		.loc 1 195 0
+ 2423 00b4 3200A0E3 		mov	r0, #50
+ 2424 00b8 6E10A0E3 		mov	r1, #110
+ 2425 00bc 0F20A0E3 		mov	r2, #15
+ 2426 00c0 B8319FE5 		ldr	r3, .L13+12
+ 2427 00c4 FEFFFFEB 		bl	lcd_puts_x2
+ 196:../proyecto.c **** 	uart0_puts( "Teclas\n" );
+ 2428              		.loc 1 196 0
+ 2429 00c8 B4019FE5 		ldr	r0, .L13+16
+ 2430 00cc FEFFFFEB 		bl	uart0_puts
+ 197:../proyecto.c **** 	uart0_puts( "Tecla 0 para jugar\n" );
+ 2431              		.loc 1 197 0
+ 2432 00d0 B0019FE5 		ldr	r0, .L13+20
+ 2433 00d4 FEFFFFEB 		bl	uart0_puts
+ 198:../proyecto.c **** 	uart0_puts( "Tecla 4 para salir\n" );
+ 2434              		.loc 1 198 0
+ 2435 00d8 AC019FE5 		ldr	r0, .L13+24
+ 2436 00dc FEFFFFEB 		bl	uart0_puts
+ 199:../proyecto.c **** 	uart0_puts( "Tecla 2 para mover izquierda\n" );
+ 2437              		.loc 1 199 0
+ 2438 00e0 A8019FE5 		ldr	r0, .L13+28
+ 2439 00e4 FEFFFFEB 		bl	uart0_puts
+ 200:../proyecto.c **** 	uart0_puts( "Tecla 3 para mover derecha\n" );
+ 2440              		.loc 1 200 0
+ 2441 00e8 A4019FE5 		ldr	r0, .L13+32
+ 2442 00ec FEFFFFEB 		bl	uart0_puts
+ 201:../proyecto.c **** 	uart0_puts("boton izquierdo pausa\n");
+ 2443              		.loc 1 201 0
+ 2444 00f0 A0019FE5 		ldr	r0, .L13+36
+ 2445 00f4 FEFFFFEB 		bl	uart0_puts
+ 202:../proyecto.c **** 	uart0_puts("boton derecho play\n");
+ 2446              		.loc 1 202 0
+ 2447 00f8 9C019FE5 		ldr	r0, .L13+40
+ 2448 00fc FEFFFFEB 		bl	uart0_puts
+ 203:../proyecto.c **** 
+ 204:../proyecto.c **** 	music = FALSE;
+ 2449              		.loc 1 204 0
+ 2450 0100 98319FE5 		ldr	r3, .L13+44
+ 2451 0104 0020A0E3 		mov	r2, #0
+ 2452 0108 0020C3E5 		strb	r2, [r3, #0]
+ 205:../proyecto.c **** 
+ 206:../proyecto.c **** 	scancode = keypad_getchar();
+ 2453              		.loc 1 206 0
+ 2454 010c FEFFFFEB 		bl	keypad_getchar
+ 2455 0110 0030A0E1 		mov	r3, r0
+ 2456 0114 0320A0E1 		mov	r2, r3
+ 2457 0118 84319FE5 		ldr	r3, .L13+48
+ 2458 011c 002083E5 		str	r2, [r3, #0]
+ 207:../proyecto.c **** 	uart0_puts( "has pulsado \n" );
+ 2459              		.loc 1 207 0
+ 2460 0120 80019FE5 		ldr	r0, .L13+52
+ 2461 0124 FEFFFFEB 		bl	uart0_puts
+ 208:../proyecto.c **** 	uart0_puts( scancode );
+ 2462              		.loc 1 208 0
+ 2463 0128 74319FE5 		ldr	r3, .L13+48
+ 2464 012c 003093E5 		ldr	r3, [r3, #0]
+ 2465 0130 0300A0E1 		mov	r0, r3
+ 2466 0134 FEFFFFEB 		bl	uart0_puts
+ 209:../proyecto.c **** 
+ 210:../proyecto.c **** 	lcd_clear();
+ 2467              		.loc 1 210 0
+ 2468 0138 FEFFFFEB 		bl	lcd_clear
+ 211:../proyecto.c **** 
+ 212:../proyecto.c **** 	if (scancode == KEYPAD_FAILURE){
+ 2469              		.loc 1 212 0
+ 2470 013c 60319FE5 		ldr	r3, .L13+48
+ 2471 0140 003093E5 		ldr	r3, [r3, #0]
+ 2472 0144 FF0053E3 		cmp	r3, #255
+ 2473 0148 0000001A 		bne	.L2
+ 213:../proyecto.c **** 		exit_game();
+ 2474              		.loc 1 213 0
+ 2475 014c FEFFFFEB 		bl	exit_game
+ 2476              	.L2:
+ 214:../proyecto.c **** 	}
+ 215:../proyecto.c **** 	if(scancode == KEYPAD_KEY4){
+ 2477              		.loc 1 215 0
+ 2478 0150 4C319FE5 		ldr	r3, .L13+48
+ 2479 0154 003093E5 		ldr	r3, [r3, #0]
+ 2480 0158 040053E3 		cmp	r3, #4
+ 2481 015c 0100001A 		bne	.L3
+ 216:../proyecto.c **** 		exit_game();
+ 2482              		.loc 1 216 0
+ 2483 0160 FEFFFFEB 		bl	exit_game
+ 2484 0164 3F0000EA 		b	.L1
+ 2485              	.L3:
+ 217:../proyecto.c **** 
+ 218:../proyecto.c **** 	}else if (scancode == KEYPAD_KEY0){
+ 2486              		.loc 1 218 0
+ 2487 0168 34319FE5 		ldr	r3, .L13+48
+ 2488 016c 003093E5 		ldr	r3, [r3, #0]
+ 2489 0170 000053E3 		cmp	r3, #0
+ 2490 0174 3B00001A 		bne	.L1
+ 219:../proyecto.c **** 
+ 220:../proyecto.c **** 		initMusic();
+ 2491              		.loc 1 220 0
+ 2492 0178 FEFFFFEB 		bl	initMusic
+ 221:../proyecto.c **** 		start_game();
+ 2493              		.loc 1 221 0
+ 2494 017c FEFFFFEB 		bl	start_game
+ 222:../proyecto.c **** 
+ 223:../proyecto.c **** 		gameOver = FALSE;
+ 2495              		.loc 1 223 0
+ 2496 0180 24319FE5 		ldr	r3, .L13+56
+ 2497 0184 0020A0E3 		mov	r2, #0
+ 2498 0188 0020C3E5 		strb	r2, [r3, #0]
+ 224:../proyecto.c **** 		finalizar = FALSE;
+ 2499              		.loc 1 224 0
+ 2500 018c 1C319FE5 		ldr	r3, .L13+60
+ 2501 0190 0020A0E3 		mov	r2, #0
+ 2502 0194 0020C3E5 		strb	r2, [r3, #0]
+ 225:../proyecto.c **** 		win_game = FALSE;
+ 2503              		.loc 1 225 0
+ 2504 0198 14319FE5 		ldr	r3, .L13+64
+ 2505 019c 0020A0E3 		mov	r2, #0
+ 2506 01a0 0020C3E5 		strb	r2, [r3, #0]
+ 226:../proyecto.c **** 		lose_game = FALSE;
+ 2507              		.loc 1 226 0
+ 2508 01a4 C8309FE5 		ldr	r3, .L13
+ 2509 01a8 0020A0E3 		mov	r2, #0
+ 2510 01ac 0020C3E5 		strb	r2, [r3, #0]
+ 227:../proyecto.c **** 		hearts = 3;
+ 2511              		.loc 1 227 0
+ 2512 01b0 00319FE5 		ldr	r3, .L13+68
+ 2513 01b4 0320A0E3 		mov	r2, #3
+ 2514 01b8 0020C3E5 		strb	r2, [r3, #0]
+ 228:../proyecto.c **** 
+ 229:../proyecto.c **** 		fifo_init();                                  // Inicializa cola de funciones
+ 2515              		.loc 1 229 0
+ 2516 01bc FEFFFFEB 		bl	fifo_init
+ 230:../proyecto.c **** 		timer0_open_tick( isr_tick, TICKS_PER_SEC );  // Instala isr_tick como RTI del timer0
+ 2517              		.loc 1 230 0
+ 2518 01c0 F4009FE5 		ldr	r0, .L13+72
+ 2519 01c4 6410A0E3 		mov	r1, #100
+ 2520 01c8 FEFFFFEB 		bl	timer0_open_tick
+ 231:../proyecto.c **** 
+ 232:../proyecto.c **** 
+ 233:../proyecto.c **** 		while( !gameOver ){
+ 2521              		.loc 1 233 0
+ 2522 01cc 0A0000EA 		b	.L5
+ 2523              	.L7:
+ 234:../proyecto.c **** 		//      sleep();                        // Entra en estado IDLE, sale por interrupción
+ 235:../proyecto.c **** 			while( !fifo_is_empty() )
+ 236:../proyecto.c **** 			{
+ 237:../proyecto.c **** 				pf = fifo_dequeue();
+ 2524              		.loc 1 237 0
+ 2525 01d0 FEFFFFEB 		bl	fifo_dequeue
+ 2526 01d4 10000BE5 		str	r0, [fp, #-16]
+ 238:../proyecto.c **** 				(*pf)();                    // Las tareas encoladas se ejecutan en esta hebra (background) en o
+ 2527              		.loc 1 238 0
+ 2528 01d8 10301BE5 		ldr	r3, [fp, #-16]
+ 2529 01dc 0FE0A0E1 		mov	lr, pc
+ 2530 01e0 13FF2FE1 		bx	r3
+ 2531 01e4 000000EA 		b	.L6
+ 2532              	.L12:
+ 235:../proyecto.c **** 			while( !fifo_is_empty() )
+ 2533              		.loc 1 235 0
+ 2534 01e8 0000A0E1 		mov	r0, r0	@ nop
+ 2535              	.L6:
+ 235:../proyecto.c **** 			while( !fifo_is_empty() )
+ 2536              		.loc 1 235 0 is_stmt 0 discriminator 1
+ 2537 01ec FEFFFFEB 		bl	fifo_is_empty
+ 2538 01f0 0030A0E1 		mov	r3, r0
+ 2539 01f4 000053E3 		cmp	r3, #0
+ 2540 01f8 F4FFFF0A 		beq	.L7
+ 2541              	.L5:
+ 233:../proyecto.c **** 		while( !gameOver ){
+ 2542              		.loc 1 233 0 is_stmt 1 discriminator 1
+ 2543 01fc A8309FE5 		ldr	r3, .L13+56
+ 2544 0200 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2545 0204 000053E3 		cmp	r3, #0
+ 2546 0208 F6FFFF0A 		beq	.L12
+ 239:../proyecto.c **** 			}
+ 240:../proyecto.c **** 
+ 241:../proyecto.c **** 
+ 242:../proyecto.c **** 		}
+ 243:../proyecto.c **** 
+ 244:../proyecto.c **** 		lcd_clear();
+ 2547              		.loc 1 244 0
+ 2548 020c FEFFFFEB 		bl	lcd_clear
+ 245:../proyecto.c **** 		lcd_draw_box(10, 10, 300, 200, BLACK, 4);
+ 2549              		.loc 1 245 0
+ 2550 0210 0F30A0E3 		mov	r3, #15
+ 2551 0214 00308DE5 		str	r3, [sp, #0]
+ 2552 0218 0430A0E3 		mov	r3, #4
+ 2553 021c 04308DE5 		str	r3, [sp, #4]
+ 2554 0220 0A00A0E3 		mov	r0, #10
+ 2555 0224 0A10A0E3 		mov	r1, #10
+ 2556 0228 4B2FA0E3 		mov	r2, #300
+ 2557 022c C830A0E3 		mov	r3, #200
+ 2558 0230 FEFFFFEB 		bl	lcd_draw_box
+ 246:../proyecto.c **** 
+ 247:../proyecto.c **** 		if(gameOver){
+ 2559              		.loc 1 247 0
+ 2560 0234 70309FE5 		ldr	r3, .L13+56
+ 2561 0238 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2562 023c 000053E3 		cmp	r3, #0
+ 2563 0240 0600000A 		beq	.L9
+ 248:../proyecto.c **** 
+ 249:../proyecto.c **** 			if(lose_game){
+ 2564              		.loc 1 249 0
+ 2565 0244 28309FE5 		ldr	r3, .L13
+ 2566 0248 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2567 024c 000053E3 		cmp	r3, #0
+ 2568 0250 0100000A 		beq	.L10
+ 250:../proyecto.c **** 				lose();
+ 2569              		.loc 1 250 0
+ 2570 0254 FEFFFFEB 		bl	lose
+ 2571 0258 000000EA 		b	.L9
+ 2572              	.L10:
+ 251:../proyecto.c **** 			}else{
+ 252:../proyecto.c **** 				win();
+ 2573              		.loc 1 252 0
+ 2574 025c FEFFFFEB 		bl	win
+ 2575              	.L9:
+ 253:../proyecto.c **** 			}
+ 254:../proyecto.c **** 		}
+ 255:../proyecto.c **** 		timer0_close();
+ 2576              		.loc 1 255 0
+ 2577 0260 FEFFFFEB 		bl	timer0_close
+ 2578              	.L11:
+ 256:../proyecto.c **** 		while(1);
+ 2579              		.loc 1 256 0 discriminator 1
+ 2580 0264 FEFFFFEA 		b	.L11
+ 2581              	.L1:
+ 257:../proyecto.c **** 	}
+ 258:../proyecto.c **** }
+ 2582              		.loc 1 258 0
+ 2583 0268 0CD04BE2 		sub	sp, fp, #12
+ 2584 026c 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 2585 0270 1EFF2FE1 		bx	lr
+ 2586              	.L14:
+ 2587              		.align	2
+ 2588              	.L13:
+ 2589 0274 00000000 		.word	lose_game
+ 2590 0278 00010000 		.word	.LC0
+ 2591 027c 10010000 		.word	.LC1
+ 2592 0280 1C010000 		.word	.LC2
+ 2593 0284 28010000 		.word	.LC3
+ 2594 0288 30010000 		.word	.LC4
+ 2595 028c 44010000 		.word	.LC5
+ 2596 0290 58010000 		.word	.LC6
+ 2597 0294 78010000 		.word	.LC7
+ 2598 0298 94010000 		.word	.LC8
+ 2599 029c AC010000 		.word	.LC9
+ 2600 02a0 00000000 		.word	music
+ 2601 02a4 00000000 		.word	scancode
+ 2602 02a8 C0010000 		.word	.LC10
+ 2603 02ac 00000000 		.word	gameOver
+ 2604 02b0 00000000 		.word	finalizar
+ 2605 02b4 00000000 		.word	win_game
+ 2606 02b8 00000000 		.word	hearts
+ 2607 02bc 00000000 		.word	isr_tick
+ 2608              		.cfi_endproc
+ 2609              	.LFE0:
+ 2611              		.align	2
+ 2612              		.global	dummy_init
+ 2614              	dummy_init:
+ 2615              	.LFB1:
+ 259:../proyecto.c **** 
+ 260:../proyecto.c **** /*******************************************************************/
+ 261:../proyecto.c **** 
+ 262:../proyecto.c **** void dummy_init( void )
+ 263:../proyecto.c **** {
+ 2616              		.loc 1 263 0
+ 2617              		.cfi_startproc
+ 2618              		@ Function supports interworking.
+ 2619              		@ args = 0, pretend = 0, frame = 0
+ 2620              		@ frame_needed = 1, uses_anonymous_args = 0
+ 2621 02c0 0DC0A0E1 		mov	ip, sp
+ 2622              	.LCFI2:
+ 2623              		.cfi_def_cfa_register 12
+ 2624 02c4 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 2625 02c8 04B04CE2 		sub	fp, ip, #4
+ 2626              		.cfi_offset 14, -8
+ 2627              		.cfi_offset 13, -12
+ 2628              		.cfi_offset 11, -16
+ 2629              	.LCFI3:
+ 2630              		.cfi_def_cfa 11, 4
+ 264:../proyecto.c ****     dummyPos = 0;                           // Inicializa la posición del dummy...
+ 2631              		.loc 1 264 0
+ 2632 02cc 1C309FE5 		ldr	r3, .L16
+ 2633 02d0 0020A0E3 		mov	r2, #0
+ 2634 02d4 0020C3E5 		strb	r2, [r3, #0]
+ 265:../proyecto.c ****     sprite_plot( &dummy, 0 );               // ... y lo dibuja
+ 2635              		.loc 1 265 0
+ 2636 02d8 14009FE5 		ldr	r0, .L16+4
+ 2637 02dc 0010A0E3 		mov	r1, #0
+ 2638 02e0 FEFFFFEB 		bl	sprite_plot
+ 266:../proyecto.c **** }
+ 2639              		.loc 1 266 0
+ 2640 02e4 0CD04BE2 		sub	sp, fp, #12
+ 2641 02e8 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 2642 02ec 1EFF2FE1 		bx	lr
+ 2643              	.L17:
+ 2644              		.align	2
+ 2645              	.L16:
+ 2646 02f0 00000000 		.word	dummyPos
+ 2647 02f4 00000000 		.word	dummy
+ 2648              		.cfi_endproc
+ 2649              	.LFE1:
+ 2651              		.align	2
+ 2652              		.global	dummy_move
+ 2654              	dummy_move:
+ 2655              	.LFB2:
+ 267:../proyecto.c **** 
+ 268:../proyecto.c **** void dummy_move( void )
+ 269:../proyecto.c **** {
+ 2656              		.loc 1 269 0
+ 2657              		.cfi_startproc
+ 2658              		@ Function supports interworking.
+ 2659              		@ args = 0, pretend = 0, frame = 0
+ 2660              		@ frame_needed = 1, uses_anonymous_args = 0
+ 2661 02f8 0DC0A0E1 		mov	ip, sp
+ 2662              	.LCFI4:
+ 2663              		.cfi_def_cfa_register 12
+ 2664 02fc 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 2665 0300 04B04CE2 		sub	fp, ip, #4
+ 2666              		.cfi_offset 14, -8
+ 2667              		.cfi_offset 13, -12
+ 2668              		.cfi_offset 11, -16
+ 2669              	.LCFI5:
+ 2670              		.cfi_def_cfa 11, 4
+ 270:../proyecto.c ****     sprite_clear( &dummy, dummyPos );       // Borra el dummy de su posición actual
+ 2671              		.loc 1 270 0
+ 2672 0304 60319FE5 		ldr	r3, .L24
+ 2673 0308 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2674 030c 5C019FE5 		ldr	r0, .L24+4
+ 2675 0310 0310A0E1 		mov	r1, r3
+ 2676 0314 FEFFFFEB 		bl	sprite_clear
+ 271:../proyecto.c ****     if( dummyPos == dummy.num_plots-1 ){     // Si el dummy ha alcanzado la última posición...
+ 2677              		.loc 1 271 0
+ 2678 0318 4C319FE5 		ldr	r3, .L24
+ 2679 031c 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2680 0320 0320A0E1 		mov	r2, r3
+ 2681 0324 44319FE5 		ldr	r3, .L24+4
+ 2682 0328 B430D3E1 		ldrh	r3, [r3, #4]
+ 2683 032c 013043E2 		sub	r3, r3, #1
+ 2684 0330 030052E1 		cmp	r2, r3
+ 2685 0334 0500001A 		bne	.L19
+ 272:../proyecto.c **** 
+ 273:../proyecto.c ****         dummyPos = 0;                       // ... lo coloca en la posición de salida
+ 2686              		.loc 1 273 0
+ 2687 0338 2C319FE5 		ldr	r3, .L24
+ 2688 033c 0020A0E3 		mov	r2, #0
+ 2689 0340 0020C3E5 		strb	r2, [r3, #0]
+ 274:../proyecto.c ****         fifo_enqueue( count_inc );          // ... incremeta el contador de dummies rescatados 
+ 2690              		.loc 1 274 0
+ 2691 0344 28019FE5 		ldr	r0, .L24+8
+ 2692 0348 FEFFFFEB 		bl	fifo_enqueue
+ 2693 034c 3E0000EA 		b	.L20
+ 2694              	.L19:
+ 275:../proyecto.c ****     }
+ 276:../proyecto.c ****     else if( dummyPos == 2 && firemanPos != 0){ // primera pos donde se caeria
+ 2695              		.loc 1 276 0
+ 2696 0350 14319FE5 		ldr	r3, .L24
+ 2697 0354 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2698 0358 020053E3 		cmp	r3, #2
+ 2699 035c 0E00001A 		bne	.L21
+ 2700              		.loc 1 276 0 is_stmt 0 discriminator 1
+ 2701 0360 10319FE5 		ldr	r3, .L24+12
+ 2702 0364 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2703 0368 000053E3 		cmp	r3, #0
+ 2704 036c 0A00000A 		beq	.L21
+ 277:../proyecto.c **** 
+ 278:../proyecto.c ****     	dummyPos = 0;
+ 2705              		.loc 1 278 0 is_stmt 1
+ 2706 0370 F4309FE5 		ldr	r3, .L24
+ 2707 0374 0020A0E3 		mov	r2, #0
+ 2708 0378 0020C3E5 		strb	r2, [r3, #0]
+ 279:../proyecto.c ****     	caida = 0;
+ 2709              		.loc 1 279 0
+ 2710 037c F8309FE5 		ldr	r3, .L24+16
+ 2711 0380 0020A0E3 		mov	r2, #0
+ 2712 0384 0020C3E5 		strb	r2, [r3, #0]
+ 280:../proyecto.c ****     	//sprite_plot(&crash, 0);
+ 281:../proyecto.c ****     	fifo_enqueue( start_play );
+ 2713              		.loc 1 281 0
+ 2714 0388 F0009FE5 		ldr	r0, .L24+20
+ 2715 038c FEFFFFEB 		bl	fifo_enqueue
+ 282:../proyecto.c ****     	fifo_enqueue(lose_life);
+ 2716              		.loc 1 282 0
+ 2717 0390 EC009FE5 		ldr	r0, .L24+24
+ 2718 0394 FEFFFFEB 		bl	fifo_enqueue
+ 2719 0398 2B0000EA 		b	.L20
+ 2720              	.L21:
+ 283:../proyecto.c ****     }
+ 284:../proyecto.c ****     else if(dummyPos == 8 && firemanPos != 1){ // segunda pos donde se caeria
+ 2721              		.loc 1 284 0
+ 2722 039c C8309FE5 		ldr	r3, .L24
+ 2723 03a0 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2724 03a4 080053E3 		cmp	r3, #8
+ 2725 03a8 0E00001A 		bne	.L22
+ 2726              		.loc 1 284 0 is_stmt 0 discriminator 1
+ 2727 03ac C4309FE5 		ldr	r3, .L24+12
+ 2728 03b0 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2729 03b4 010053E3 		cmp	r3, #1
+ 2730 03b8 0A00000A 		beq	.L22
+ 285:../proyecto.c **** 
+ 286:../proyecto.c ****     	dummyPos = 0;
+ 2731              		.loc 1 286 0 is_stmt 1
+ 2732 03bc A8309FE5 		ldr	r3, .L24
+ 2733 03c0 0020A0E3 		mov	r2, #0
+ 2734 03c4 0020C3E5 		strb	r2, [r3, #0]
+ 287:../proyecto.c ****     	caida = 1;
+ 2735              		.loc 1 287 0
+ 2736 03c8 AC309FE5 		ldr	r3, .L24+16
+ 2737 03cc 0120A0E3 		mov	r2, #1
+ 2738 03d0 0020C3E5 		strb	r2, [r3, #0]
+ 288:../proyecto.c ****     	//sprite_plot(&crash, 1);
+ 289:../proyecto.c ****     	fifo_enqueue( start_play );
+ 2739              		.loc 1 289 0
+ 2740 03d4 A4009FE5 		ldr	r0, .L24+20
+ 2741 03d8 FEFFFFEB 		bl	fifo_enqueue
+ 290:../proyecto.c ****     	fifo_enqueue(lose_life);
+ 2742              		.loc 1 290 0
+ 2743 03dc A0009FE5 		ldr	r0, .L24+24
+ 2744 03e0 FEFFFFEB 		bl	fifo_enqueue
+ 2745 03e4 180000EA 		b	.L20
+ 2746              	.L22:
+ 291:../proyecto.c ****     }
+ 292:../proyecto.c ****     else if(dummyPos == 14 && firemanPos != 2){ // tercera pos donde se caeria
+ 2747              		.loc 1 292 0
+ 2748 03e8 7C309FE5 		ldr	r3, .L24
+ 2749 03ec 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2750 03f0 0E0053E3 		cmp	r3, #14
+ 2751 03f4 0E00001A 		bne	.L23
+ 2752              		.loc 1 292 0 is_stmt 0 discriminator 1
+ 2753 03f8 78309FE5 		ldr	r3, .L24+12
+ 2754 03fc 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2755 0400 020053E3 		cmp	r3, #2
+ 2756 0404 0A00000A 		beq	.L23
+ 293:../proyecto.c **** 
+ 294:../proyecto.c ****     	dummyPos = 0;
+ 2757              		.loc 1 294 0 is_stmt 1
+ 2758 0408 5C309FE5 		ldr	r3, .L24
+ 2759 040c 0020A0E3 		mov	r2, #0
+ 2760 0410 0020C3E5 		strb	r2, [r3, #0]
+ 295:../proyecto.c ****     	caida = 2;
+ 2761              		.loc 1 295 0
+ 2762 0414 60309FE5 		ldr	r3, .L24+16
+ 2763 0418 0220A0E3 		mov	r2, #2
+ 2764 041c 0020C3E5 		strb	r2, [r3, #0]
+ 296:../proyecto.c ****     	//sprite_plot(&crash, 2);
+ 297:../proyecto.c ****     	fifo_enqueue( start_play );
+ 2765              		.loc 1 297 0
+ 2766 0420 58009FE5 		ldr	r0, .L24+20
+ 2767 0424 FEFFFFEB 		bl	fifo_enqueue
+ 298:../proyecto.c ****     	fifo_enqueue(lose_life);
+ 2768              		.loc 1 298 0
+ 2769 0428 54009FE5 		ldr	r0, .L24+24
+ 2770 042c FEFFFFEB 		bl	fifo_enqueue
+ 2771 0430 050000EA 		b	.L20
+ 2772              	.L23:
+ 299:../proyecto.c ****     }
+ 300:../proyecto.c ****     else{
+ 301:../proyecto.c ****         dummyPos++;                         // En caso contrario, avanza su posición´
+ 2773              		.loc 1 301 0
+ 2774 0434 30309FE5 		ldr	r3, .L24
+ 2775 0438 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2776 043c 013083E2 		add	r3, r3, #1
+ 2777 0440 FF2003E2 		and	r2, r3, #255
+ 2778 0444 20309FE5 		ldr	r3, .L24
+ 2779 0448 0020C3E5 		strb	r2, [r3, #0]
+ 2780              	.L20:
+ 302:../proyecto.c ****     }
+ 303:../proyecto.c **** 
+ 304:../proyecto.c ****     sprite_plot( &dummy, dummyPos );        // Dibuja el dummy en la nueva posición   
+ 2781              		.loc 1 304 0
+ 2782 044c 18309FE5 		ldr	r3, .L24
+ 2783 0450 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 2784 0454 14009FE5 		ldr	r0, .L24+4
+ 2785 0458 0310A0E1 		mov	r1, r3
+ 2786 045c FEFFFFEB 		bl	sprite_plot
+ 305:../proyecto.c **** }
+ 2787              		.loc 1 305 0
+ 2788 0460 0CD04BE2 		sub	sp, fp, #12
+ 2789 0464 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 2790 0468 1EFF2FE1 		bx	lr
+ 2791              	.L25:
+ 2792              		.align	2
+ 2793              	.L24:
+ 2794 046c 00000000 		.word	dummyPos
+ 2795 0470 00000000 		.word	dummy
+ 2796 0474 00000000 		.word	count_inc
+ 2797 0478 00000000 		.word	firemanPos
+ 2798 047c 00000000 		.word	caida
+ 2799 0480 00000000 		.word	start_play
+ 2800 0484 00000000 		.word	lose_life
+ 2801              		.cfi_endproc
+ 2802              	.LFE2:
+ 2804              		.align	2
+ 2805              		.global	count_init
+ 2807              	count_init:
+ 2808              	.LFB3:
+ 306:../proyecto.c **** 
+ 307:../proyecto.c **** /*******************************************************************/
+ 308:../proyecto.c **** 
+ 309:../proyecto.c **** void count_init( void )
+ 310:../proyecto.c **** {
+ 2809              		.loc 1 310 0
+ 2810              		.cfi_startproc
+ 2811              		@ Function supports interworking.
+ 2812              		@ args = 0, pretend = 0, frame = 0
+ 2813              		@ frame_needed = 1, uses_anonymous_args = 0
+ 2814 0488 0DC0A0E1 		mov	ip, sp
+ 2815              	.LCFI6:
+ 2816              		.cfi_def_cfa_register 12
+ 2817 048c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 2818 0490 04B04CE2 		sub	fp, ip, #4
+ 2819              		.cfi_offset 14, -8
+ 2820              		.cfi_offset 13, -12
+ 2821              		.cfi_offset 11, -16
+ 2822              	.LCFI7:
+ 2823              		.cfi_def_cfa 11, 4
+ 311:../proyecto.c ****     count = 0;                              // Inicializa el contador de dummies salvados...
+ 2824              		.loc 1 311 0
+ 2825 0494 28309FE5 		ldr	r3, .L27
+ 2826 0498 0020A0E3 		mov	r2, #0
+ 2827 049c B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 312:../proyecto.c ****     lcd_putint_x2( 287, 0, BLACK, count );  // ... y lo dibuja
+ 2828              		.loc 1 312 0
+ 2829 04a0 1C309FE5 		ldr	r3, .L27
+ 2830 04a4 B030D3E1 		ldrh	r3, [r3, #0]
+ 2831 04a8 18009FE5 		ldr	r0, .L27+4
+ 2832 04ac 0010A0E3 		mov	r1, #0
+ 2833 04b0 0F20A0E3 		mov	r2, #15
+ 2834 04b4 FEFFFFEB 		bl	lcd_putint_x2
+ 313:../proyecto.c **** }
+ 2835              		.loc 1 313 0
+ 2836 04b8 0CD04BE2 		sub	sp, fp, #12
+ 2837 04bc 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 2838 04c0 1EFF2FE1 		bx	lr
+ 2839              	.L28:
+ 2840              		.align	2
+ 2841              	.L27:
+ 2842 04c4 00000000 		.word	count
+ 2843 04c8 1F010000 		.word	287
+ 2844              		.cfi_endproc
+ 2845              	.LFE3:
+ 2847              		.align	2
+ 2848              		.global	count_inc
+ 2850              	count_inc:
+ 2851              	.LFB4:
+ 314:../proyecto.c **** 
+ 315:../proyecto.c **** void count_inc( void )
+ 316:../proyecto.c **** {
+ 2852              		.loc 1 316 0
+ 2853              		.cfi_startproc
+ 2854              		@ Function supports interworking.
+ 2855              		@ args = 0, pretend = 0, frame = 0
+ 2856              		@ frame_needed = 1, uses_anonymous_args = 0
+ 2857 04cc 0DC0A0E1 		mov	ip, sp
+ 2858              	.LCFI8:
+ 2859              		.cfi_def_cfa_register 12
+ 2860 04d0 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 2861 04d4 04B04CE2 		sub	fp, ip, #4
+ 2862              		.cfi_offset 14, -8
+ 2863              		.cfi_offset 13, -12
+ 2864              		.cfi_offset 11, -16
+ 2865              	.LCFI9:
+ 2866              		.cfi_def_cfa 11, 4
+ 317:../proyecto.c ****     count++;                                // Incrementa el contador de dummies salvados
+ 2867              		.loc 1 317 0
+ 2868 04d8 54309FE5 		ldr	r3, .L31
+ 2869 04dc B030D3E1 		ldrh	r3, [r3, #0]
+ 2870 04e0 013083E2 		add	r3, r3, #1
+ 2871 04e4 0338A0E1 		mov	r3, r3, asl #16
+ 2872 04e8 2328A0E1 		mov	r2, r3, lsr #16
+ 2873 04ec 40309FE5 		ldr	r3, .L31
+ 2874 04f0 B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 318:../proyecto.c ****     lcd_putint_x2( 287, 0, BLACK, count );
+ 2875              		.loc 1 318 0
+ 2876 04f4 38309FE5 		ldr	r3, .L31
+ 2877 04f8 B030D3E1 		ldrh	r3, [r3, #0]
+ 2878 04fc 34009FE5 		ldr	r0, .L31+4
+ 2879 0500 0010A0E3 		mov	r1, #0
+ 2880 0504 0F20A0E3 		mov	r2, #15
+ 2881 0508 FEFFFFEB 		bl	lcd_putint_x2
+ 319:../proyecto.c ****     if( count == 9 )                        // Si se han salvado 9 dummies...
+ 2882              		.loc 1 319 0
+ 2883 050c 20309FE5 		ldr	r3, .L31
+ 2884 0510 B030D3E1 		ldrh	r3, [r3, #0]
+ 2885 0514 090053E3 		cmp	r3, #9
+ 2886 0518 0200001A 		bne	.L29
+ 320:../proyecto.c ****         gameOver = TRUE;                    // ... señaliza fin del juego
+ 2887              		.loc 1 320 0
+ 2888 051c 18309FE5 		ldr	r3, .L31+8
+ 2889 0520 0120A0E3 		mov	r2, #1
+ 2890 0524 0020C3E5 		strb	r2, [r3, #0]
+ 2891              	.L29:
+ 321:../proyecto.c **** }
+ 2892              		.loc 1 321 0
+ 2893 0528 0CD04BE2 		sub	sp, fp, #12
+ 2894 052c 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 2895 0530 1EFF2FE1 		bx	lr
+ 2896              	.L32:
+ 2897              		.align	2
+ 2898              	.L31:
+ 2899 0534 00000000 		.word	count
+ 2900 0538 1F010000 		.word	287
+ 2901 053c 00000000 		.word	gameOver
+ 2902              		.cfi_endproc
+ 2903              	.LFE4:
+ 2905              		.align	2
+ 2906              		.global	isr_tick
+ 2908              	isr_tick:
+ 2909              	.LFB5:
+ 322:../proyecto.c **** 
+ 323:../proyecto.c **** /*******************************************************************/
+ 324:../proyecto.c **** 
+ 325:../proyecto.c **** void isr_tick( void )
+ 326:../proyecto.c **** {   
+ 2910              		.loc 1 326 0
+ 2911              		.cfi_startproc
+ 2912              		@ Interrupt Service Routine.
+ 2913              		@ args = 0, pretend = 0, frame = 0
+ 2914              		@ frame_needed = 1, uses_anonymous_args = 0
+ 2915 0540 04C02DE5 		str	ip, [sp, #-4]!
+ 2916 0544 0DC0A0E1 		mov	ip, sp
+ 2917              	.LCFI10:
+ 2918              		.cfi_def_cfa_register 12
+ 2919 0548 0FD82DE9 		stmfd	sp!, {r0, r1, r2, r3, fp, ip, lr, pc}
+ 2920 054c 04B04CE2 		sub	fp, ip, #4
+ 2921              		.cfi_offset 14, -8
+ 2922              		.cfi_offset 13, -12
+ 2923              		.cfi_offset 11, -16
+ 2924              		.cfi_offset 3, -20
+ 2925              		.cfi_offset 2, -24
+ 2926              		.cfi_offset 1, -28
+ 2927              		.cfi_offset 0, -32
+ 2928              	.LCFI11:
+ 2929              		.cfi_def_cfa 11, 4
+ 327:../proyecto.c ****     static uint16 cont40ticks = 40;
+ 328:../proyecto.c ****     static uint16 cont5ticks = 5;
+ 329:../proyecto.c **** 
+ 330:../proyecto.c **** 	if( !(--cont5ticks) ){
+ 2930              		.loc 1 330 0
+ 2931 0550 94309FE5 		ldr	r3, .L36
+ 2932 0554 B030D3E1 		ldrh	r3, [r3, #0]
+ 2933 0558 013043E2 		sub	r3, r3, #1
+ 2934 055c 0338A0E1 		mov	r3, r3, asl #16
+ 2935 0560 2328A0E1 		mov	r2, r3, lsr #16
+ 2936 0564 80309FE5 		ldr	r3, .L36
+ 2937 0568 B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 2938 056c 78309FE5 		ldr	r3, .L36
+ 2939 0570 B030D3E1 		ldrh	r3, [r3, #0]
+ 2940 0574 000053E3 		cmp	r3, #0
+ 2941 0578 0400001A 		bne	.L34
+ 331:../proyecto.c **** 		cont5ticks = 5;
+ 2942              		.loc 1 331 0
+ 2943 057c 68309FE5 		ldr	r3, .L36
+ 2944 0580 0520A0E3 		mov	r2, #5
+ 2945 0584 B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 332:../proyecto.c **** 		fifo_enqueue( teclaMoveFireman );
+ 2946              		.loc 1 332 0
+ 2947 0588 60009FE5 		ldr	r0, .L36+4
+ 2948 058c FEFFFFEB 		bl	fifo_enqueue
+ 2949              	.L34:
+ 333:../proyecto.c ****     }
+ 334:../proyecto.c **** 
+ 335:../proyecto.c ****     if( !(--cont40ticks) )
+ 2950              		.loc 1 335 0
+ 2951 0590 5C309FE5 		ldr	r3, .L36+8
+ 2952 0594 B030D3E1 		ldrh	r3, [r3, #0]
+ 2953 0598 013043E2 		sub	r3, r3, #1
+ 2954 059c 0338A0E1 		mov	r3, r3, asl #16
+ 2955 05a0 2328A0E1 		mov	r2, r3, lsr #16
+ 2956 05a4 48309FE5 		ldr	r3, .L36+8
+ 2957 05a8 B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 2958 05ac 40309FE5 		ldr	r3, .L36+8
+ 2959 05b0 B030D3E1 		ldrh	r3, [r3, #0]
+ 2960 05b4 000053E3 		cmp	r3, #0
+ 2961 05b8 0400001A 		bne	.L35
+ 336:../proyecto.c ****     {
+ 337:../proyecto.c ****         cont40ticks = 40;
+ 2962              		.loc 1 337 0
+ 2963 05bc 30309FE5 		ldr	r3, .L36+8
+ 2964 05c0 2820A0E3 		mov	r2, #40
+ 2965 05c4 B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 338:../proyecto.c ****         fifo_enqueue( dummy_move );
+ 2966              		.loc 1 338 0
+ 2967 05c8 28009FE5 		ldr	r0, .L36+12
+ 2968 05cc FEFFFFEB 		bl	fifo_enqueue
+ 2969              	.L35:
+ 339:../proyecto.c ****     }
+ 340:../proyecto.c **** 
+ 341:../proyecto.c **** 
+ 342:../proyecto.c ****     I_ISPC = BIT_TIMER0;
+ 2970              		.loc 1 342 0
+ 2971 05d0 24309FE5 		ldr	r3, .L36+16
+ 2972 05d4 022AA0E3 		mov	r2, #8192
+ 2973 05d8 002083E5 		str	r2, [r3, #0]
+ 343:../proyecto.c **** };
+ 2974              		.loc 1 343 0
+ 2975 05dc 1CD04BE2 		sub	sp, fp, #28
+ 2976 05e0 0F689DE8 		ldmfd	sp, {r0, r1, r2, r3, fp, sp, lr}
+ 2977 05e4 04C09DE4 		ldmfd	sp!, {ip}
+ 2978 05e8 04F05EE2 		subs	pc, lr, #4
+ 2979              	.L37:
+ 2980              		.align	2
+ 2981              	.L36:
+ 2982 05ec 02000000 		.word	cont5ticks.4242
+ 2983 05f0 00000000 		.word	teclaMoveFireman
+ 2984 05f4 04000000 		.word	cont40ticks.4241
+ 2985 05f8 00000000 		.word	dummy_move
+ 2986 05fc 2400E001 		.word	31457316
+ 2987              		.cfi_endproc
+ 2988              	.LFE5:
+ 2990              		.align	2
+ 2991              		.global	sprite_plot
+ 2993              	sprite_plot:
+ 2994              	.LFB6:
+ 344:../proyecto.c **** 
+ 345:../proyecto.c **** /*******************************************************************/
+ 346:../proyecto.c **** 
+ 347:../proyecto.c **** extern uint8 lcd_buffer[];
+ 348:../proyecto.c **** 
+ 349:../proyecto.c **** void lcd_putBmp( uint8 *bmp, uint16 x, uint16 y, uint16 xsize, uint16 ysize );
+ 350:../proyecto.c **** void lcd_clearWindow( uint16 x, uint16 y, uint16 xsize, uint16 ysize );
+ 351:../proyecto.c **** 
+ 352:../proyecto.c **** void sprite_plot( sprite_t const *sprite, uint16 num )
+ 353:../proyecto.c **** {
+ 2995              		.loc 1 353 0
+ 2996              		.cfi_startproc
+ 2997              		@ Function supports interworking.
+ 2998              		@ args = 0, pretend = 0, frame = 8
+ 2999              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3000 0600 0DC0A0E1 		mov	ip, sp
+ 3001              	.LCFI12:
+ 3002              		.cfi_def_cfa_register 12
+ 3003 0604 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3004 0608 04B04CE2 		sub	fp, ip, #4
+ 3005              		.cfi_offset 14, -8
+ 3006              		.cfi_offset 13, -12
+ 3007              		.cfi_offset 11, -16
+ 3008              	.LCFI13:
+ 3009              		.cfi_def_cfa 11, 4
+ 3010 060c 10D04DE2 		sub	sp, sp, #16
+ 3011 0610 10000BE5 		str	r0, [fp, #-16]
+ 3012 0614 0130A0E1 		mov	r3, r1
+ 3013 0618 B2314BE1 		strh	r3, [fp, #-18]	@ movhi
+ 354:../proyecto.c ****     lcd_putBmp( sprite->plots[num].plot, sprite->plots[num].x, sprite->plots[num].y, sprite->width,
+ 3014              		.loc 1 354 0
+ 3015 061c B2315BE1 		ldrh	r3, [fp, #-18]
+ 3016 0620 10101BE5 		ldr	r1, [fp, #-16]
+ 3017 0624 012083E2 		add	r2, r3, #1
+ 3018 0628 0430A0E3 		mov	r3, #4
+ 3019 062c 8221A0E1 		mov	r2, r2, asl #3
+ 3020 0630 022081E0 		add	r2, r1, r2
+ 3021 0634 033082E0 		add	r3, r2, r3
+ 3022 0638 000093E5 		ldr	r0, [r3, #0]
+ 3023 063c B2315BE1 		ldrh	r3, [fp, #-18]
+ 3024 0640 10201BE5 		ldr	r2, [fp, #-16]
+ 3025 0644 013083E2 		add	r3, r3, #1
+ 3026 0648 8331A0E1 		mov	r3, r3, asl #3
+ 3027 064c 033082E0 		add	r3, r2, r3
+ 3028 0650 B010D3E1 		ldrh	r1, [r3, #0]
+ 3029 0654 B2315BE1 		ldrh	r3, [fp, #-18]
+ 3030 0658 10C01BE5 		ldr	ip, [fp, #-16]
+ 3031 065c 012083E2 		add	r2, r3, #1
+ 3032 0660 0230A0E3 		mov	r3, #2
+ 3033 0664 8221A0E1 		mov	r2, r2, asl #3
+ 3034 0668 02208CE0 		add	r2, ip, r2
+ 3035 066c 033082E0 		add	r3, r2, r3
+ 3036 0670 B020D3E1 		ldrh	r2, [r3, #0]
+ 3037 0674 10301BE5 		ldr	r3, [fp, #-16]
+ 3038 0678 B030D3E1 		ldrh	r3, [r3, #0]
+ 3039 067c 10C01BE5 		ldr	ip, [fp, #-16]
+ 3040 0680 B2C0DCE1 		ldrh	ip, [ip, #2]
+ 3041 0684 00C08DE5 		str	ip, [sp, #0]
+ 3042 0688 FEFFFFEB 		bl	lcd_putBmp
+ 355:../proyecto.c **** }
+ 3043              		.loc 1 355 0
+ 3044 068c 0CD04BE2 		sub	sp, fp, #12
+ 3045 0690 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3046 0694 1EFF2FE1 		bx	lr
+ 3047              		.cfi_endproc
+ 3048              	.LFE6:
+ 3050              		.align	2
+ 3051              		.global	sprite_clear
+ 3053              	sprite_clear:
+ 3054              	.LFB7:
+ 356:../proyecto.c **** 
+ 357:../proyecto.c **** void sprite_clear( sprite_t const *sprite, uint16 num )
+ 358:../proyecto.c **** {
+ 3055              		.loc 1 358 0
+ 3056              		.cfi_startproc
+ 3057              		@ Function supports interworking.
+ 3058              		@ args = 0, pretend = 0, frame = 8
+ 3059              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3060 0698 0DC0A0E1 		mov	ip, sp
+ 3061              	.LCFI14:
+ 3062              		.cfi_def_cfa_register 12
+ 3063 069c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3064 06a0 04B04CE2 		sub	fp, ip, #4
+ 3065              		.cfi_offset 14, -8
+ 3066              		.cfi_offset 13, -12
+ 3067              		.cfi_offset 11, -16
+ 3068              	.LCFI15:
+ 3069              		.cfi_def_cfa 11, 4
+ 3070 06a4 08D04DE2 		sub	sp, sp, #8
+ 3071 06a8 10000BE5 		str	r0, [fp, #-16]
+ 3072 06ac 0130A0E1 		mov	r3, r1
+ 3073 06b0 B2314BE1 		strh	r3, [fp, #-18]	@ movhi
+ 359:../proyecto.c ****     lcd_clearWindow( sprite->plots[num].x, sprite->plots[num].y, sprite->width, sprite->height );
+ 3074              		.loc 1 359 0
+ 3075 06b4 B2315BE1 		ldrh	r3, [fp, #-18]
+ 3076 06b8 10201BE5 		ldr	r2, [fp, #-16]
+ 3077 06bc 013083E2 		add	r3, r3, #1
+ 3078 06c0 8331A0E1 		mov	r3, r3, asl #3
+ 3079 06c4 033082E0 		add	r3, r2, r3
+ 3080 06c8 B000D3E1 		ldrh	r0, [r3, #0]
+ 3081 06cc B2315BE1 		ldrh	r3, [fp, #-18]
+ 3082 06d0 10101BE5 		ldr	r1, [fp, #-16]
+ 3083 06d4 012083E2 		add	r2, r3, #1
+ 3084 06d8 0230A0E3 		mov	r3, #2
+ 3085 06dc 8221A0E1 		mov	r2, r2, asl #3
+ 3086 06e0 022081E0 		add	r2, r1, r2
+ 3087 06e4 033082E0 		add	r3, r2, r3
+ 3088 06e8 B010D3E1 		ldrh	r1, [r3, #0]
+ 3089 06ec 10301BE5 		ldr	r3, [fp, #-16]
+ 3090 06f0 B020D3E1 		ldrh	r2, [r3, #0]
+ 3091 06f4 10301BE5 		ldr	r3, [fp, #-16]
+ 3092 06f8 B230D3E1 		ldrh	r3, [r3, #2]
+ 3093 06fc FEFFFFEB 		bl	lcd_clearWindow
+ 360:../proyecto.c **** }
+ 3094              		.loc 1 360 0
+ 3095 0700 0CD04BE2 		sub	sp, fp, #12
+ 3096 0704 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3097 0708 1EFF2FE1 		bx	lr
+ 3098              		.cfi_endproc
+ 3099              	.LFE7:
+ 3101              		.align	2
+ 3102              		.global	lcd_putBmp
+ 3104              	lcd_putBmp:
+ 3105              	.LFB8:
+ 361:../proyecto.c **** 
+ 362:../proyecto.c **** /*
+ 363:../proyecto.c **** ** Muestra un BMP de tamaño (xsize, ysize) píxeles en la posición (x,y)
+ 364:../proyecto.c **** ** Esta función es una generalización de lcd_putWallpaper
+ 365:../proyecto.c **** */
+ 366:../proyecto.c **** void lcd_putBmp( uint8 *bmp, uint16 x, uint16 y, uint16 xsize, uint16 ysize )
+ 367:../proyecto.c **** {
+ 3106              		.loc 1 367 0
+ 3107              		.cfi_startproc
+ 3108              		@ Function supports interworking.
+ 3109              		@ args = 4, pretend = 0, frame = 32
+ 3110              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3111 070c 0DC0A0E1 		mov	ip, sp
+ 3112              	.LCFI16:
+ 3113              		.cfi_def_cfa_register 12
+ 3114 0710 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3115 0714 04B04CE2 		sub	fp, ip, #4
+ 3116              		.cfi_offset 14, -8
+ 3117              		.cfi_offset 13, -12
+ 3118              		.cfi_offset 11, -16
+ 3119              	.LCFI17:
+ 3120              		.cfi_def_cfa 11, 4
+ 3121 0718 20D04DE2 		sub	sp, sp, #32
+ 3122 071c 20000BE5 		str	r0, [fp, #-32]
+ 3123 0720 B2124BE1 		strh	r1, [fp, #-34]	@ movhi
+ 3124 0724 B4224BE1 		strh	r2, [fp, #-36]	@ movhi
+ 3125 0728 B6324BE1 		strh	r3, [fp, #-38]	@ movhi
+ 368:../proyecto.c **** 	uint32 headerSize;
+ 369:../proyecto.c **** 
+ 370:../proyecto.c **** 	uint16 xSrc, ySrc, yDst;
+ 371:../proyecto.c **** 	uint16 offsetSrc, offsetDst;
+ 372:../proyecto.c **** 
+ 373:../proyecto.c **** 	headerSize = bmp[10] + (bmp[11] << 8) + (bmp[12] << 16) + (bmp[13] << 24);
+ 3126              		.loc 1 373 0
+ 3127 072c 20301BE5 		ldr	r3, [fp, #-32]
+ 3128 0730 0A3083E2 		add	r3, r3, #10
+ 3129 0734 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3130 0738 0320A0E1 		mov	r2, r3
+ 3131 073c 20301BE5 		ldr	r3, [fp, #-32]
+ 3132 0740 0B3083E2 		add	r3, r3, #11
+ 3133 0744 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3134 0748 0334A0E1 		mov	r3, r3, asl #8
+ 3135 074c 032082E0 		add	r2, r2, r3
+ 3136 0750 20301BE5 		ldr	r3, [fp, #-32]
+ 3137 0754 0C3083E2 		add	r3, r3, #12
+ 3138 0758 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3139 075c 0338A0E1 		mov	r3, r3, asl #16
+ 3140 0760 032082E0 		add	r2, r2, r3
+ 3141 0764 20301BE5 		ldr	r3, [fp, #-32]
+ 3142 0768 0D3083E2 		add	r3, r3, #13
+ 3143 076c 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3144 0770 033CA0E1 		mov	r3, r3, asl #24
+ 3145 0774 033082E0 		add	r3, r2, r3
+ 3146 0778 18300BE5 		str	r3, [fp, #-24]
+ 374:../proyecto.c **** 
+ 375:../proyecto.c **** 	bmp = bmp + headerSize; 
+ 3147              		.loc 1 375 0
+ 3148 077c 20201BE5 		ldr	r2, [fp, #-32]
+ 3149 0780 18301BE5 		ldr	r3, [fp, #-24]
+ 3150 0784 033082E0 		add	r3, r2, r3
+ 3151 0788 20300BE5 		str	r3, [fp, #-32]
+ 376:../proyecto.c **** 
+ 377:../proyecto.c **** 	for( ySrc=0, yDst=ysize-1; ySrc<ysize; ySrc++, yDst-- )
+ 3152              		.loc 1 377 0
+ 3153 078c 0030A0E3 		mov	r3, #0
+ 3154 0790 B0314BE1 		strh	r3, [fp, #-16]	@ movhi
+ 3155 0794 B430DBE1 		ldrh	r3, [fp, #4]	@ movhi
+ 3156 0798 013043E2 		sub	r3, r3, #1
+ 3157 079c B2314BE1 		strh	r3, [fp, #-18]	@ movhi
+ 3158 07a0 380000EA 		b	.L41
+ 3159              	.L44:
+ 378:../proyecto.c **** 	{
+ 379:../proyecto.c **** 		offsetDst = (yDst+y)*LCD_WIDTH/2+x/2;
+ 3160              		.loc 1 379 0
+ 3161 07a4 B2215BE1 		ldrh	r2, [fp, #-18]
+ 3162 07a8 B4325BE1 		ldrh	r3, [fp, #-36]
+ 3163 07ac 032082E0 		add	r2, r2, r3
+ 3164 07b0 0230A0E1 		mov	r3, r2
+ 3165 07b4 0331A0E1 		mov	r3, r3, asl #2
+ 3166 07b8 023083E0 		add	r3, r3, r2
+ 3167 07bc 0333A0E1 		mov	r3, r3, asl #6
+ 3168 07c0 A32FA0E1 		mov	r2, r3, lsr #31
+ 3169 07c4 033082E0 		add	r3, r2, r3
+ 3170 07c8 C330A0E1 		mov	r3, r3, asr #1
+ 3171 07cc 0338A0E1 		mov	r3, r3, asl #16
+ 3172 07d0 2328A0E1 		mov	r2, r3, lsr #16
+ 3173 07d4 B2325BE1 		ldrh	r3, [fp, #-34]
+ 3174 07d8 A330A0E1 		mov	r3, r3, lsr #1
+ 3175 07dc 0338A0E1 		mov	r3, r3, asl #16
+ 3176 07e0 2338A0E1 		mov	r3, r3, lsr #16
+ 3177 07e4 033082E0 		add	r3, r2, r3
+ 3178 07e8 BA314BE1 		strh	r3, [fp, #-26]	@ movhi
+ 380:../proyecto.c **** 		offsetSrc = ySrc*xsize/2;
+ 3179              		.loc 1 380 0
+ 3180 07ec B0315BE1 		ldrh	r3, [fp, #-16]
+ 3181 07f0 B6225BE1 		ldrh	r2, [fp, #-38]
+ 3182 07f4 920303E0 		mul	r3, r2, r3
+ 3183 07f8 A32FA0E1 		mov	r2, r3, lsr #31
+ 3184 07fc 033082E0 		add	r3, r2, r3
+ 3185 0800 C330A0E1 		mov	r3, r3, asr #1
+ 3186 0804 BC314BE1 		strh	r3, [fp, #-28]	@ movhi
+ 381:../proyecto.c **** 		for( xSrc=0; xSrc<xsize/2; xSrc++ )
+ 3187              		.loc 1 381 0
+ 3188 0808 0030A0E3 		mov	r3, #0
+ 3189 080c BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 3190 0810 0F0000EA 		b	.L42
+ 3191              	.L43:
+ 382:../proyecto.c **** 			lcd_buffer[offsetDst+xSrc] = ~bmp[offsetSrc+xSrc];
+ 3192              		.loc 1 382 0 discriminator 2
+ 3193 0814 BA215BE1 		ldrh	r2, [fp, #-26]
+ 3194 0818 BE305BE1 		ldrh	r3, [fp, #-14]
+ 3195 081c 033082E0 		add	r3, r2, r3
+ 3196 0820 BC115BE1 		ldrh	r1, [fp, #-28]
+ 3197 0824 BE205BE1 		ldrh	r2, [fp, #-14]
+ 3198 0828 022081E0 		add	r2, r1, r2
+ 3199 082c 20101BE5 		ldr	r1, [fp, #-32]
+ 3200 0830 022081E0 		add	r2, r1, r2
+ 3201 0834 0020D2E5 		ldrb	r2, [r2, #0]	@ zero_extendqisi2
+ 3202 0838 0220E0E1 		mvn	r2, r2
+ 3203 083c FF1002E2 		and	r1, r2, #255
+ 3204 0840 5C209FE5 		ldr	r2, .L45
+ 3205 0844 0310C2E7 		strb	r1, [r2, r3]
+ 381:../proyecto.c **** 		for( xSrc=0; xSrc<xsize/2; xSrc++ )
+ 3206              		.loc 1 381 0 discriminator 2
+ 3207 0848 BE305BE1 		ldrh	r3, [fp, #-14]	@ movhi
+ 3208 084c 013083E2 		add	r3, r3, #1
+ 3209 0850 BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 3210              	.L42:
+ 381:../proyecto.c **** 		for( xSrc=0; xSrc<xsize/2; xSrc++ )
+ 3211              		.loc 1 381 0 is_stmt 0 discriminator 1
+ 3212 0854 B6325BE1 		ldrh	r3, [fp, #-38]
+ 3213 0858 A330A0E1 		mov	r3, r3, lsr #1
+ 3214 085c 0338A0E1 		mov	r3, r3, asl #16
+ 3215 0860 2338A0E1 		mov	r3, r3, lsr #16
+ 3216 0864 BE205BE1 		ldrh	r2, [fp, #-14]
+ 3217 0868 030052E1 		cmp	r2, r3
+ 3218 086c E8FFFF3A 		bcc	.L43
+ 377:../proyecto.c **** 	for( ySrc=0, yDst=ysize-1; ySrc<ysize; ySrc++, yDst-- )
+ 3219              		.loc 1 377 0 is_stmt 1
+ 3220 0870 B0315BE1 		ldrh	r3, [fp, #-16]	@ movhi
+ 3221 0874 013083E2 		add	r3, r3, #1
+ 3222 0878 B0314BE1 		strh	r3, [fp, #-16]	@ movhi
+ 3223 087c B2315BE1 		ldrh	r3, [fp, #-18]	@ movhi
+ 3224 0880 013043E2 		sub	r3, r3, #1
+ 3225 0884 B2314BE1 		strh	r3, [fp, #-18]	@ movhi
+ 3226              	.L41:
+ 377:../proyecto.c **** 	for( ySrc=0, yDst=ysize-1; ySrc<ysize; ySrc++, yDst-- )
+ 3227              		.loc 1 377 0 is_stmt 0 discriminator 1
+ 3228 0888 B0215BE1 		ldrh	r2, [fp, #-16]
+ 3229 088c B430DBE1 		ldrh	r3, [fp, #4]
+ 3230 0890 030052E1 		cmp	r2, r3
+ 3231 0894 C2FFFF3A 		bcc	.L44
+ 383:../proyecto.c **** 	}
+ 384:../proyecto.c **** }
+ 3232              		.loc 1 384 0 is_stmt 1
+ 3233 0898 0CD04BE2 		sub	sp, fp, #12
+ 3234 089c 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3235 08a0 1EFF2FE1 		bx	lr
+ 3236              	.L46:
+ 3237              		.align	2
+ 3238              	.L45:
+ 3239 08a4 00000000 		.word	lcd_buffer
+ 3240              		.cfi_endproc
+ 3241              	.LFE8:
+ 3243              		.align	2
+ 3244              		.global	lcd_clearWindow
+ 3246              	lcd_clearWindow:
+ 3247              	.LFB9:
+ 385:../proyecto.c **** 
+ 386:../proyecto.c **** /*
+ 387:../proyecto.c **** ** Borra una porción de la pantalla de tamaño (xsize, ysize) píxeles desde la posición (x,y)
+ 388:../proyecto.c **** ** Esta función es una generalización de lcd_clear
+ 389:../proyecto.c **** */
+ 390:../proyecto.c **** void lcd_clearWindow( uint16 x, uint16 y, uint16 xsize, uint16 ysize )
+ 391:../proyecto.c **** {
+ 3248              		.loc 1 391 0
+ 3249              		.cfi_startproc
+ 3250              		@ Function supports interworking.
+ 3251              		@ args = 0, pretend = 0, frame = 16
+ 3252              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3253 08a8 0DC0A0E1 		mov	ip, sp
+ 3254              	.LCFI18:
+ 3255              		.cfi_def_cfa_register 12
+ 3256 08ac 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3257 08b0 04B04CE2 		sub	fp, ip, #4
+ 3258              		.cfi_offset 14, -8
+ 3259              		.cfi_offset 13, -12
+ 3260              		.cfi_offset 11, -16
+ 3261              	.LCFI19:
+ 3262              		.cfi_def_cfa 11, 4
+ 3263 08b4 10D04DE2 		sub	sp, sp, #16
+ 3264 08b8 B6014BE1 		strh	r0, [fp, #-22]	@ movhi
+ 3265 08bc B8114BE1 		strh	r1, [fp, #-24]	@ movhi
+ 3266 08c0 BA214BE1 		strh	r2, [fp, #-26]	@ movhi
+ 3267 08c4 BC314BE1 		strh	r3, [fp, #-28]	@ movhi
+ 392:../proyecto.c **** 	uint16 xi, yi;
+ 393:../proyecto.c **** 
+ 394:../proyecto.c **** 	for( yi=y; yi<y+ysize; yi++ )
+ 3268              		.loc 1 394 0
+ 3269 08c8 B8315BE1 		ldrh	r3, [fp, #-24]	@ movhi
+ 3270 08cc B0314BE1 		strh	r3, [fp, #-16]	@ movhi
+ 3271 08d0 140000EA 		b	.L48
+ 3272              	.L51:
+ 395:../proyecto.c **** 		for( xi=x; xi<x+xsize; xi++ )
+ 3273              		.loc 1 395 0
+ 3274 08d4 B6315BE1 		ldrh	r3, [fp, #-22]	@ movhi
+ 3275 08d8 BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 3276 08dc 080000EA 		b	.L49
+ 3277              	.L50:
+ 396:../proyecto.c **** 			lcd_putpixel( xi, yi, WHITE );
+ 3278              		.loc 1 396 0 discriminator 2
+ 3279 08e0 BE205BE1 		ldrh	r2, [fp, #-14]
+ 3280 08e4 B0315BE1 		ldrh	r3, [fp, #-16]
+ 3281 08e8 0200A0E1 		mov	r0, r2
+ 3282 08ec 0310A0E1 		mov	r1, r3
+ 3283 08f0 0020A0E3 		mov	r2, #0
+ 3284 08f4 FEFFFFEB 		bl	lcd_putpixel
+ 395:../proyecto.c **** 		for( xi=x; xi<x+xsize; xi++ )
+ 3285              		.loc 1 395 0 discriminator 2
+ 3286 08f8 BE305BE1 		ldrh	r3, [fp, #-14]	@ movhi
+ 3287 08fc 013083E2 		add	r3, r3, #1
+ 3288 0900 BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 3289              	.L49:
+ 395:../proyecto.c **** 		for( xi=x; xi<x+xsize; xi++ )
+ 3290              		.loc 1 395 0 is_stmt 0 discriminator 1
+ 3291 0904 BE205BE1 		ldrh	r2, [fp, #-14]
+ 3292 0908 B6115BE1 		ldrh	r1, [fp, #-22]
+ 3293 090c BA315BE1 		ldrh	r3, [fp, #-26]
+ 3294 0910 033081E0 		add	r3, r1, r3
+ 3295 0914 030052E1 		cmp	r2, r3
+ 3296 0918 F0FFFFBA 		blt	.L50
+ 394:../proyecto.c **** 	for( yi=y; yi<y+ysize; yi++ )
+ 3297              		.loc 1 394 0 is_stmt 1
+ 3298 091c B0315BE1 		ldrh	r3, [fp, #-16]	@ movhi
+ 3299 0920 013083E2 		add	r3, r3, #1
+ 3300 0924 B0314BE1 		strh	r3, [fp, #-16]	@ movhi
+ 3301              	.L48:
+ 394:../proyecto.c **** 	for( yi=y; yi<y+ysize; yi++ )
+ 3302              		.loc 1 394 0 is_stmt 0 discriminator 1
+ 3303 0928 B0215BE1 		ldrh	r2, [fp, #-16]
+ 3304 092c B8115BE1 		ldrh	r1, [fp, #-24]
+ 3305 0930 BC315BE1 		ldrh	r3, [fp, #-28]
+ 3306 0934 033081E0 		add	r3, r1, r3
+ 3307 0938 030052E1 		cmp	r2, r3
+ 3308 093c E4FFFFBA 		blt	.L51
+ 397:../proyecto.c **** }
+ 3309              		.loc 1 397 0 is_stmt 1
+ 3310 0940 0CD04BE2 		sub	sp, fp, #12
+ 3311 0944 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3312 0948 1EFF2FE1 		bx	lr
+ 3313              		.cfi_endproc
+ 3314              	.LFE9:
+ 3316              		.align	2
+ 3317              		.global	fifo_init
+ 3319              	fifo_init:
+ 3320              	.LFB10:
+ 398:../proyecto.c **** 
+ 399:../proyecto.c **** /*******************************************************************/
+ 400:../proyecto.c **** 
+ 401:../proyecto.c **** void fifo_init( void )
+ 402:../proyecto.c **** {
+ 3321              		.loc 1 402 0
+ 3322              		.cfi_startproc
+ 3323              		@ Function supports interworking.
+ 3324              		@ args = 0, pretend = 0, frame = 0
+ 3325              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3326 094c 0DC0A0E1 		mov	ip, sp
+ 3327              	.LCFI20:
+ 3328              		.cfi_def_cfa_register 12
+ 3329 0950 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3330 0954 04B04CE2 		sub	fp, ip, #4
+ 3331              		.cfi_offset 14, -8
+ 3332              		.cfi_offset 13, -12
+ 3333              		.cfi_offset 11, -16
+ 3334              	.LCFI21:
+ 3335              		.cfi_def_cfa 11, 4
+ 403:../proyecto.c ****     fifo.head = 0;
+ 3336              		.loc 1 403 0
+ 3337 0958 28309FE5 		ldr	r3, .L53
+ 3338 095c 0020A0E3 		mov	r2, #0
+ 3339 0960 B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 404:../proyecto.c ****     fifo.tail = 0;
+ 3340              		.loc 1 404 0
+ 3341 0964 1C309FE5 		ldr	r3, .L53
+ 3342 0968 0020A0E3 		mov	r2, #0
+ 3343 096c B220C3E1 		strh	r2, [r3, #2]	@ movhi
+ 405:../proyecto.c ****     fifo.size = 0;
+ 3344              		.loc 1 405 0
+ 3345 0970 10309FE5 		ldr	r3, .L53
+ 3346 0974 0020A0E3 		mov	r2, #0
+ 3347 0978 B420C3E1 		strh	r2, [r3, #4]	@ movhi
+ 406:../proyecto.c **** }
+ 3348              		.loc 1 406 0
+ 3349 097c 0CD04BE2 		sub	sp, fp, #12
+ 3350 0980 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3351 0984 1EFF2FE1 		bx	lr
+ 3352              	.L54:
+ 3353              		.align	2
+ 3354              	.L53:
+ 3355 0988 00000000 		.word	fifo
+ 3356              		.cfi_endproc
+ 3357              	.LFE10:
+ 3359              		.align	2
+ 3360              		.global	fifo_enqueue
+ 3362              	fifo_enqueue:
+ 3363              	.LFB11:
+ 407:../proyecto.c **** 
+ 408:../proyecto.c **** void fifo_enqueue( pf_t pf )
+ 409:../proyecto.c **** {
+ 3364              		.loc 1 409 0
+ 3365              		.cfi_startproc
+ 3366              		@ Function supports interworking.
+ 3367              		@ args = 0, pretend = 0, frame = 8
+ 3368              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3369 098c 0DC0A0E1 		mov	ip, sp
+ 3370              	.LCFI22:
+ 3371              		.cfi_def_cfa_register 12
+ 3372 0990 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3373 0994 04B04CE2 		sub	fp, ip, #4
+ 3374              		.cfi_offset 14, -8
+ 3375              		.cfi_offset 13, -12
+ 3376              		.cfi_offset 11, -16
+ 3377              	.LCFI23:
+ 3378              		.cfi_def_cfa 11, 4
+ 3379 0998 08D04DE2 		sub	sp, sp, #8
+ 3380 099c 10000BE5 		str	r0, [fp, #-16]
+ 410:../proyecto.c ****     fifo.buffer[fifo.tail++] = pf;
+ 3381              		.loc 1 410 0
+ 3382 09a0 9C309FE5 		ldr	r3, .L57
+ 3383 09a4 B230D3E1 		ldrh	r3, [r3, #2]	@ movhi
+ 3384 09a8 0338A0E1 		mov	r3, r3, asl #16
+ 3385 09ac 2338A0E1 		mov	r3, r3, lsr #16
+ 3386 09b0 0310A0E1 		mov	r1, r3
+ 3387 09b4 88209FE5 		ldr	r2, .L57
+ 3388 09b8 021081E2 		add	r1, r1, #2
+ 3389 09bc 10001BE5 		ldr	r0, [fp, #-16]
+ 3390 09c0 010182E7 		str	r0, [r2, r1, asl #2]
+ 3391 09c4 013083E2 		add	r3, r3, #1
+ 3392 09c8 0338A0E1 		mov	r3, r3, asl #16
+ 3393 09cc 2328A0E1 		mov	r2, r3, lsr #16
+ 3394 09d0 6C309FE5 		ldr	r3, .L57
+ 3395 09d4 B220C3E1 		strh	r2, [r3, #2]	@ movhi
+ 411:../proyecto.c ****     if( fifo.tail == BUFFER_LEN )
+ 3396              		.loc 1 411 0
+ 3397 09d8 64309FE5 		ldr	r3, .L57
+ 3398 09dc B230D3E1 		ldrh	r3, [r3, #2]	@ movhi
+ 3399 09e0 0338A0E1 		mov	r3, r3, asl #16
+ 3400 09e4 2338A0E1 		mov	r3, r3, lsr #16
+ 3401 09e8 020C53E3 		cmp	r3, #512
+ 3402 09ec 0200001A 		bne	.L56
+ 412:../proyecto.c ****         fifo.tail = 0;
+ 3403              		.loc 1 412 0
+ 3404 09f0 4C309FE5 		ldr	r3, .L57
+ 3405 09f4 0020A0E3 		mov	r2, #0
+ 3406 09f8 B220C3E1 		strh	r2, [r3, #2]	@ movhi
+ 3407              	.L56:
+ 413:../proyecto.c ****     INT_DISABLE;
+ 3408              		.loc 1 413 0
+ 3409              	@ 413 "../proyecto.c" 1
+ 3410 09fc 00000FE1 		mrs   r0, cpsr
+ 3411              	@ 0 "" 2
+ 3412              	@ 413 "../proyecto.c" 1
+ 3413 0a00 04002DE5 		stmfd sp!, {r0}
+ 3414              	@ 0 "" 2
+ 3415              	@ 413 "../proyecto.c" 1
+ 3416 0a04 C00080E3 		orr   r0, r0, #0b11000000
+ 3417              	@ 0 "" 2
+ 3418              	@ 413 "../proyecto.c" 1
+ 3419 0a08 00F021E1 		msr   cpsr_c, r0
+ 3420              	@ 0 "" 2
+ 414:../proyecto.c ****     fifo.size++;
+ 3421              		.loc 1 414 0
+ 3422 0a0c 30309FE5 		ldr	r3, .L57
+ 3423 0a10 B430D3E1 		ldrh	r3, [r3, #4]	@ movhi
+ 3424 0a14 0338A0E1 		mov	r3, r3, asl #16
+ 3425 0a18 2338A0E1 		mov	r3, r3, lsr #16
+ 3426 0a1c 013083E2 		add	r3, r3, #1
+ 3427 0a20 0338A0E1 		mov	r3, r3, asl #16
+ 3428 0a24 2328A0E1 		mov	r2, r3, lsr #16
+ 3429 0a28 14309FE5 		ldr	r3, .L57
+ 3430 0a2c B420C3E1 		strh	r2, [r3, #4]	@ movhi
+ 415:../proyecto.c ****     INT_ENABLE;
+ 3431              		.loc 1 415 0
+ 3432              	@ 415 "../proyecto.c" 1
+ 3433 0a30 04009DE4 		ldmfd sp!, {r0}
+ 3434              	@ 0 "" 2
+ 3435              	@ 415 "../proyecto.c" 1
+ 3436 0a34 00F021E1 		msr   cpsr_c, r0
+ 3437              	@ 0 "" 2
+ 416:../proyecto.c **** }
+ 3438              		.loc 1 416 0
+ 3439 0a38 0CD04BE2 		sub	sp, fp, #12
+ 3440 0a3c 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3441 0a40 1EFF2FE1 		bx	lr
+ 3442              	.L58:
+ 3443              		.align	2
+ 3444              	.L57:
+ 3445 0a44 00000000 		.word	fifo
+ 3446              		.cfi_endproc
+ 3447              	.LFE11:
+ 3449              		.align	2
+ 3450              		.global	fifo_dequeue
+ 3452              	fifo_dequeue:
+ 3453              	.LFB12:
+ 417:../proyecto.c **** 
+ 418:../proyecto.c **** pf_t fifo_dequeue( void )
+ 419:../proyecto.c **** {
+ 3454              		.loc 1 419 0
+ 3455              		.cfi_startproc
+ 3456              		@ Function supports interworking.
+ 3457              		@ args = 0, pretend = 0, frame = 8
+ 3458              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3459 0a48 0DC0A0E1 		mov	ip, sp
+ 3460              	.LCFI24:
+ 3461              		.cfi_def_cfa_register 12
+ 3462 0a4c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3463 0a50 04B04CE2 		sub	fp, ip, #4
+ 3464              		.cfi_offset 14, -8
+ 3465              		.cfi_offset 13, -12
+ 3466              		.cfi_offset 11, -16
+ 3467              	.LCFI25:
+ 3468              		.cfi_def_cfa 11, 4
+ 3469 0a54 08D04DE2 		sub	sp, sp, #8
+ 420:../proyecto.c ****     pf_t pf;
+ 421:../proyecto.c ****     
+ 422:../proyecto.c ****     pf = fifo.buffer[fifo.head++];
+ 3470              		.loc 1 422 0
+ 3471 0a58 A4309FE5 		ldr	r3, .L61
+ 3472 0a5c B030D3E1 		ldrh	r3, [r3, #0]	@ movhi
+ 3473 0a60 0338A0E1 		mov	r3, r3, asl #16
+ 3474 0a64 2338A0E1 		mov	r3, r3, lsr #16
+ 3475 0a68 0310A0E1 		mov	r1, r3
+ 3476 0a6c 90209FE5 		ldr	r2, .L61
+ 3477 0a70 021081E2 		add	r1, r1, #2
+ 3478 0a74 012192E7 		ldr	r2, [r2, r1, asl #2]
+ 3479 0a78 10200BE5 		str	r2, [fp, #-16]
+ 3480 0a7c 013083E2 		add	r3, r3, #1
+ 3481 0a80 0338A0E1 		mov	r3, r3, asl #16
+ 3482 0a84 2328A0E1 		mov	r2, r3, lsr #16
+ 3483 0a88 74309FE5 		ldr	r3, .L61
+ 3484 0a8c B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 423:../proyecto.c ****     if( fifo.head == BUFFER_LEN )
+ 3485              		.loc 1 423 0
+ 3486 0a90 6C309FE5 		ldr	r3, .L61
+ 3487 0a94 B030D3E1 		ldrh	r3, [r3, #0]	@ movhi
+ 3488 0a98 0338A0E1 		mov	r3, r3, asl #16
+ 3489 0a9c 2338A0E1 		mov	r3, r3, lsr #16
+ 3490 0aa0 020C53E3 		cmp	r3, #512
+ 3491 0aa4 0200001A 		bne	.L60
+ 424:../proyecto.c ****         fifo.head = 0;
+ 3492              		.loc 1 424 0
+ 3493 0aa8 54309FE5 		ldr	r3, .L61
+ 3494 0aac 0020A0E3 		mov	r2, #0
+ 3495 0ab0 B020C3E1 		strh	r2, [r3, #0]	@ movhi
+ 3496              	.L60:
+ 425:../proyecto.c ****     INT_DISABLE;
+ 3497              		.loc 1 425 0
+ 3498              	@ 425 "../proyecto.c" 1
+ 3499 0ab4 00000FE1 		mrs   r0, cpsr
+ 3500              	@ 0 "" 2
+ 3501              	@ 425 "../proyecto.c" 1
+ 3502 0ab8 04002DE5 		stmfd sp!, {r0}
+ 3503              	@ 0 "" 2
+ 3504              	@ 425 "../proyecto.c" 1
+ 3505 0abc C00080E3 		orr   r0, r0, #0b11000000
+ 3506              	@ 0 "" 2
+ 3507              	@ 425 "../proyecto.c" 1
+ 3508 0ac0 00F021E1 		msr   cpsr_c, r0
+ 3509              	@ 0 "" 2
+ 426:../proyecto.c ****     fifo.size--;
+ 3510              		.loc 1 426 0
+ 3511 0ac4 38309FE5 		ldr	r3, .L61
+ 3512 0ac8 B430D3E1 		ldrh	r3, [r3, #4]	@ movhi
+ 3513 0acc 0338A0E1 		mov	r3, r3, asl #16
+ 3514 0ad0 2338A0E1 		mov	r3, r3, lsr #16
+ 3515 0ad4 013043E2 		sub	r3, r3, #1
+ 3516 0ad8 0338A0E1 		mov	r3, r3, asl #16
+ 3517 0adc 2328A0E1 		mov	r2, r3, lsr #16
+ 3518 0ae0 1C309FE5 		ldr	r3, .L61
+ 3519 0ae4 B420C3E1 		strh	r2, [r3, #4]	@ movhi
+ 427:../proyecto.c ****     INT_ENABLE;
+ 3520              		.loc 1 427 0
+ 3521              	@ 427 "../proyecto.c" 1
+ 3522 0ae8 04009DE4 		ldmfd sp!, {r0}
+ 3523              	@ 0 "" 2
+ 3524              	@ 427 "../proyecto.c" 1
+ 3525 0aec 00F021E1 		msr   cpsr_c, r0
+ 3526              	@ 0 "" 2
+ 428:../proyecto.c ****     return pf;
+ 3527              		.loc 1 428 0
+ 3528 0af0 10301BE5 		ldr	r3, [fp, #-16]
+ 429:../proyecto.c **** }
+ 3529              		.loc 1 429 0
+ 3530 0af4 0300A0E1 		mov	r0, r3
+ 3531 0af8 0CD04BE2 		sub	sp, fp, #12
+ 3532 0afc 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3533 0b00 1EFF2FE1 		bx	lr
+ 3534              	.L62:
+ 3535              		.align	2
+ 3536              	.L61:
+ 3537 0b04 00000000 		.word	fifo
+ 3538              		.cfi_endproc
+ 3539              	.LFE12:
+ 3541              		.align	2
+ 3542              		.global	fifo_is_empty
+ 3544              	fifo_is_empty:
+ 3545              	.LFB13:
+ 430:../proyecto.c **** 
+ 431:../proyecto.c **** boolean fifo_is_empty( void )
+ 432:../proyecto.c **** {
+ 3546              		.loc 1 432 0
+ 3547              		.cfi_startproc
+ 3548              		@ Function supports interworking.
+ 3549              		@ args = 0, pretend = 0, frame = 0
+ 3550              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3551 0b08 0DC0A0E1 		mov	ip, sp
+ 3552              	.LCFI26:
+ 3553              		.cfi_def_cfa_register 12
+ 3554 0b0c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3555 0b10 04B04CE2 		sub	fp, ip, #4
+ 3556              		.cfi_offset 14, -8
+ 3557              		.cfi_offset 13, -12
+ 3558              		.cfi_offset 11, -16
+ 3559              	.LCFI27:
+ 3560              		.cfi_def_cfa 11, 4
+ 433:../proyecto.c ****     return (fifo.size == 0);
+ 3561              		.loc 1 433 0
+ 3562 0b14 28309FE5 		ldr	r3, .L64
+ 3563 0b18 B430D3E1 		ldrh	r3, [r3, #4]	@ movhi
+ 3564 0b1c 0338A0E1 		mov	r3, r3, asl #16
+ 3565 0b20 2338A0E1 		mov	r3, r3, lsr #16
+ 3566 0b24 000053E3 		cmp	r3, #0
+ 3567 0b28 0030A013 		movne	r3, #0
+ 3568 0b2c 0130A003 		moveq	r3, #1
+ 3569 0b30 FF3003E2 		and	r3, r3, #255
+ 434:../proyecto.c **** }
+ 3570              		.loc 1 434 0
+ 3571 0b34 0300A0E1 		mov	r0, r3
+ 3572 0b38 0CD04BE2 		sub	sp, fp, #12
+ 3573 0b3c 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3574 0b40 1EFF2FE1 		bx	lr
+ 3575              	.L65:
+ 3576              		.align	2
+ 3577              	.L64:
+ 3578 0b44 00000000 		.word	fifo
+ 3579              		.cfi_endproc
+ 3580              	.LFE13:
+ 3582              		.align	2
+ 3583              		.global	fifo_is_full
+ 3585              	fifo_is_full:
+ 3586              	.LFB14:
+ 435:../proyecto.c **** 
+ 436:../proyecto.c **** boolean fifo_is_full( void )
+ 437:../proyecto.c **** {
+ 3587              		.loc 1 437 0
+ 3588              		.cfi_startproc
+ 3589              		@ Function supports interworking.
+ 3590              		@ args = 0, pretend = 0, frame = 0
+ 3591              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3592 0b48 0DC0A0E1 		mov	ip, sp
+ 3593              	.LCFI28:
+ 3594              		.cfi_def_cfa_register 12
+ 3595 0b4c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3596 0b50 04B04CE2 		sub	fp, ip, #4
+ 3597              		.cfi_offset 14, -8
+ 3598              		.cfi_offset 13, -12
+ 3599              		.cfi_offset 11, -16
+ 3600              	.LCFI29:
+ 3601              		.cfi_def_cfa 11, 4
+ 438:../proyecto.c ****     return (fifo.size == BUFFER_LEN-1);
+ 3602              		.loc 1 438 0
+ 3603 0b54 2C309FE5 		ldr	r3, .L67
+ 3604 0b58 B430D3E1 		ldrh	r3, [r3, #4]	@ movhi
+ 3605 0b5c 0338A0E1 		mov	r3, r3, asl #16
+ 3606 0b60 2328A0E1 		mov	r2, r3, lsr #16
+ 3607 0b64 20309FE5 		ldr	r3, .L67+4
+ 3608 0b68 030052E1 		cmp	r2, r3
+ 3609 0b6c 0030A013 		movne	r3, #0
+ 3610 0b70 0130A003 		moveq	r3, #1
+ 3611 0b74 FF3003E2 		and	r3, r3, #255
+ 439:../proyecto.c **** }
+ 3612              		.loc 1 439 0
+ 3613 0b78 0300A0E1 		mov	r0, r3
+ 3614 0b7c 0CD04BE2 		sub	sp, fp, #12
+ 3615 0b80 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3616 0b84 1EFF2FE1 		bx	lr
+ 3617              	.L68:
+ 3618              		.align	2
+ 3619              	.L67:
+ 3620 0b88 00000000 		.word	fifo
+ 3621 0b8c FF010000 		.word	511
+ 3622              		.cfi_endproc
+ 3623              	.LFE14:
+ 3625              		.align	2
+ 3626              		.global	init_fireman
+ 3628              	init_fireman:
+ 3629              	.LFB15:
+ 440:../proyecto.c **** 
+ 441:../proyecto.c **** /*******************************************************************/
+ 442:../proyecto.c **** 
+ 443:../proyecto.c **** 
+ 444:../proyecto.c **** void init_fireman( void ){
+ 3630              		.loc 1 444 0
+ 3631              		.cfi_startproc
+ 3632              		@ Function supports interworking.
+ 3633              		@ args = 0, pretend = 0, frame = 0
+ 3634              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3635 0b90 0DC0A0E1 		mov	ip, sp
+ 3636              	.LCFI30:
+ 3637              		.cfi_def_cfa_register 12
+ 3638 0b94 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3639 0b98 04B04CE2 		sub	fp, ip, #4
+ 3640              		.cfi_offset 14, -8
+ 3641              		.cfi_offset 13, -12
+ 3642              		.cfi_offset 11, -16
+ 3643              	.LCFI31:
+ 3644              		.cfi_def_cfa 11, 4
+ 445:../proyecto.c **** 	firemanPos = 0;
+ 3645              		.loc 1 445 0
+ 3646 0b9c 24309FE5 		ldr	r3, .L70
+ 3647 0ba0 0020A0E3 		mov	r2, #0
+ 3648 0ba4 0020C3E5 		strb	r2, [r3, #0]
+ 446:../proyecto.c **** 	sprite_plot( &firemen, firemanPos);
+ 3649              		.loc 1 446 0
+ 3650 0ba8 18309FE5 		ldr	r3, .L70
+ 3651 0bac 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3652 0bb0 14009FE5 		ldr	r0, .L70+4
+ 3653 0bb4 0310A0E1 		mov	r1, r3
+ 3654 0bb8 FEFFFFEB 		bl	sprite_plot
+ 447:../proyecto.c **** }
+ 3655              		.loc 1 447 0
+ 3656 0bbc 0CD04BE2 		sub	sp, fp, #12
+ 3657 0bc0 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3658 0bc4 1EFF2FE1 		bx	lr
+ 3659              	.L71:
+ 3660              		.align	2
+ 3661              	.L70:
+ 3662 0bc8 00000000 		.word	firemanPos
+ 3663 0bcc 00000000 		.word	firemen
+ 3664              		.cfi_endproc
+ 3665              	.LFE15:
+ 3667              		.section	.rodata
+ 3668 01ce 0000     		.align	2
+ 3669              	.LC11:
+ 3670 01d0 20456E74 		.ascii	" Entra en teclaMoveFireman\012\000"
+ 3670      72612065 
+ 3670      6E207465 
+ 3670      636C614D 
+ 3670      6F766546 
+ 3671              		.align	2
+ 3672              	.LC12:
+ 3673 01ec 6E6F7320 		.ascii	"nos movemos a la izquierda\012\000"
+ 3673      6D6F7665 
+ 3673      6D6F7320 
+ 3673      61206C61 
+ 3673      20697A71 
+ 3674              		.align	2
+ 3675              	.LC13:
+ 3676 0208 6E6F7320 		.ascii	"nos movemos a la derecha\012\000"
+ 3676      6D6F7665 
+ 3676      6D6F7320 
+ 3676      61206C61 
+ 3676      20646572 
+ 3677              		.text
+ 3678              		.align	2
+ 3679              		.global	teclaMoveFireman
+ 3681              	teclaMoveFireman:
+ 3682              	.LFB16:
+ 448:../proyecto.c **** 
+ 449:../proyecto.c **** // gestion movimiento bomberos
+ 450:../proyecto.c **** void teclaMoveFireman( void ){
+ 3683              		.loc 1 450 0
+ 3684              		.cfi_startproc
+ 3685              		@ Function supports interworking.
+ 3686              		@ args = 0, pretend = 0, frame = 0
+ 3687              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3688 0bd0 0DC0A0E1 		mov	ip, sp
+ 3689              	.LCFI32:
+ 3690              		.cfi_def_cfa_register 12
+ 3691 0bd4 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3692 0bd8 04B04CE2 		sub	fp, ip, #4
+ 3693              		.cfi_offset 14, -8
+ 3694              		.cfi_offset 13, -12
+ 3695              		.cfi_offset 11, -16
+ 3696              	.LCFI33:
+ 3697              		.cfi_def_cfa 11, 4
+ 451:../proyecto.c **** 
+ 452:../proyecto.c **** 	static boolean init = TRUE;
+ 453:../proyecto.c **** 
+ 454:../proyecto.c **** 	if( init ){
+ 3698              		.loc 1 454 0
+ 3699 0bdc 6C319FE5 		ldr	r3, .L78
+ 3700 0be0 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3701 0be4 000053E3 		cmp	r3, #0
+ 3702 0be8 0500000A 		beq	.L73
+ 455:../proyecto.c **** 		init  = FALSE;
+ 3703              		.loc 1 455 0
+ 3704 0bec 5C319FE5 		ldr	r3, .L78
+ 3705 0bf0 0020A0E3 		mov	r2, #0
+ 3706 0bf4 0020C3E5 		strb	r2, [r3, #0]
+ 456:../proyecto.c **** 	    uart0_puts( " Entra en teclaMoveFireman\n" );  /* Muestra un mensaje inicial en la UART0 (no e
+ 3707              		.loc 1 456 0
+ 3708 0bf8 54019FE5 		ldr	r0, .L78+4
+ 3709 0bfc FEFFFFEB 		bl	uart0_puts
+ 3710 0c00 4F0000EA 		b	.L72
+ 3711              	.L73:
+ 457:../proyecto.c **** 
+ 458:../proyecto.c **** 	}else{
+ 459:../proyecto.c **** 
+ 460:../proyecto.c **** 		if (keypad_pressed()){
+ 3712              		.loc 1 460 0
+ 3713 0c04 FEFFFFEB 		bl	keypad_pressed
+ 3714 0c08 0030A0E1 		mov	r3, r0
+ 3715 0c0c 000053E3 		cmp	r3, #0
+ 3716 0c10 4B00000A 		beq	.L72
+ 461:../proyecto.c **** 			scancode = keypad_getchar();
+ 3717              		.loc 1 461 0
+ 3718 0c14 FEFFFFEB 		bl	keypad_getchar
+ 3719 0c18 0030A0E1 		mov	r3, r0
+ 3720 0c1c 0320A0E1 		mov	r2, r3
+ 3721 0c20 30319FE5 		ldr	r3, .L78+8
+ 3722 0c24 002083E5 		str	r2, [r3, #0]
+ 462:../proyecto.c **** 
+ 463:../proyecto.c **** 					if(scancode == KEYPAD_KEY2){
+ 3723              		.loc 1 463 0
+ 3724 0c28 28319FE5 		ldr	r3, .L78+8
+ 3725 0c2c 003093E5 		ldr	r3, [r3, #0]
+ 3726 0c30 020053E3 		cmp	r3, #2
+ 3727 0c34 1F00001A 		bne	.L75
+ 464:../proyecto.c **** 						uart0_puts("nos movemos a la izquierda\n");
+ 3728              		.loc 1 464 0
+ 3729 0c38 1C019FE5 		ldr	r0, .L78+12
+ 3730 0c3c FEFFFFEB 		bl	uart0_puts
+ 465:../proyecto.c **** 						sprite_clear(&firemen, firemanPos);
+ 3731              		.loc 1 465 0
+ 3732 0c40 18319FE5 		ldr	r3, .L78+16
+ 3733 0c44 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3734 0c48 14019FE5 		ldr	r0, .L78+20
+ 3735 0c4c 0310A0E1 		mov	r1, r3
+ 3736 0c50 FEFFFFEB 		bl	sprite_clear
+ 466:../proyecto.c **** 						firemanPos--;
+ 3737              		.loc 1 466 0
+ 3738 0c54 04319FE5 		ldr	r3, .L78+16
+ 3739 0c58 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3740 0c5c 013043E2 		sub	r3, r3, #1
+ 3741 0c60 FF2003E2 		and	r2, r3, #255
+ 3742 0c64 F4309FE5 		ldr	r3, .L78+16
+ 3743 0c68 0020C3E5 		strb	r2, [r3, #0]
+ 467:../proyecto.c **** 						if(firemanPos < 0 || firemanPos > 3){
+ 3744              		.loc 1 467 0
+ 3745 0c6c EC309FE5 		ldr	r3, .L78+16
+ 3746 0c70 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3747 0c74 030053E3 		cmp	r3, #3
+ 3748 0c78 0800009A 		bls	.L76
+ 468:../proyecto.c **** 							firemanPos = 0;
+ 3749              		.loc 1 468 0
+ 3750 0c7c DC309FE5 		ldr	r3, .L78+16
+ 3751 0c80 0020A0E3 		mov	r2, #0
+ 3752 0c84 0020C3E5 		strb	r2, [r3, #0]
+ 469:../proyecto.c **** 							sprite_plot( &firemen, firemanPos);
+ 3753              		.loc 1 469 0
+ 3754 0c88 D0309FE5 		ldr	r3, .L78+16
+ 3755 0c8c 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3756 0c90 CC009FE5 		ldr	r0, .L78+20
+ 3757 0c94 0310A0E1 		mov	r1, r3
+ 3758 0c98 FEFFFFEB 		bl	sprite_plot
+ 3759 0c9c 280000EA 		b	.L72
+ 3760              	.L76:
+ 470:../proyecto.c **** 						}else{
+ 471:../proyecto.c **** 							sprite_plot( &firemen, firemanPos);
+ 3761              		.loc 1 471 0
+ 3762 0ca0 B8309FE5 		ldr	r3, .L78+16
+ 3763 0ca4 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3764 0ca8 B4009FE5 		ldr	r0, .L78+20
+ 3765 0cac 0310A0E1 		mov	r1, r3
+ 3766 0cb0 FEFFFFEB 		bl	sprite_plot
+ 3767 0cb4 220000EA 		b	.L72
+ 3768              	.L75:
+ 472:../proyecto.c **** 						}
+ 473:../proyecto.c **** 
+ 474:../proyecto.c **** 					} else if(scancode == KEYPAD_KEY3){
+ 3769              		.loc 1 474 0
+ 3770 0cb8 98309FE5 		ldr	r3, .L78+8
+ 3771 0cbc 003093E5 		ldr	r3, [r3, #0]
+ 3772 0cc0 030053E3 		cmp	r3, #3
+ 3773 0cc4 1E00001A 		bne	.L72
+ 475:../proyecto.c **** 						uart0_puts("nos movemos a la derecha\n");
+ 3774              		.loc 1 475 0
+ 3775 0cc8 98009FE5 		ldr	r0, .L78+24
+ 3776 0ccc FEFFFFEB 		bl	uart0_puts
+ 476:../proyecto.c **** 						sprite_clear(&firemen, firemanPos);
+ 3777              		.loc 1 476 0
+ 3778 0cd0 88309FE5 		ldr	r3, .L78+16
+ 3779 0cd4 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3780 0cd8 84009FE5 		ldr	r0, .L78+20
+ 3781 0cdc 0310A0E1 		mov	r1, r3
+ 3782 0ce0 FEFFFFEB 		bl	sprite_clear
+ 477:../proyecto.c **** 						firemanPos++;
+ 3783              		.loc 1 477 0
+ 3784 0ce4 74309FE5 		ldr	r3, .L78+16
+ 3785 0ce8 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3786 0cec 013083E2 		add	r3, r3, #1
+ 3787 0cf0 FF2003E2 		and	r2, r3, #255
+ 3788 0cf4 64309FE5 		ldr	r3, .L78+16
+ 3789 0cf8 0020C3E5 		strb	r2, [r3, #0]
+ 478:../proyecto.c **** 						if(firemanPos >= 3){
+ 3790              		.loc 1 478 0
+ 3791 0cfc 5C309FE5 		ldr	r3, .L78+16
+ 3792 0d00 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3793 0d04 020053E3 		cmp	r3, #2
+ 3794 0d08 0800009A 		bls	.L77
+ 479:../proyecto.c **** 							firemanPos = 0;
+ 3795              		.loc 1 479 0
+ 3796 0d0c 4C309FE5 		ldr	r3, .L78+16
+ 3797 0d10 0020A0E3 		mov	r2, #0
+ 3798 0d14 0020C3E5 		strb	r2, [r3, #0]
+ 480:../proyecto.c **** 							sprite_plot( &firemen, firemanPos);
+ 3799              		.loc 1 480 0
+ 3800 0d18 40309FE5 		ldr	r3, .L78+16
+ 3801 0d1c 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3802 0d20 3C009FE5 		ldr	r0, .L78+20
+ 3803 0d24 0310A0E1 		mov	r1, r3
+ 3804 0d28 FEFFFFEB 		bl	sprite_plot
+ 3805 0d2c 040000EA 		b	.L72
+ 3806              	.L77:
+ 481:../proyecto.c **** 						}else{
+ 482:../proyecto.c **** 							sprite_plot( &firemen, firemanPos);
+ 3807              		.loc 1 482 0
+ 3808 0d30 28309FE5 		ldr	r3, .L78+16
+ 3809 0d34 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3810 0d38 24009FE5 		ldr	r0, .L78+20
+ 3811 0d3c 0310A0E1 		mov	r1, r3
+ 3812 0d40 FEFFFFEB 		bl	sprite_plot
+ 3813              	.L72:
+ 483:../proyecto.c **** 						}
+ 484:../proyecto.c **** 					}
+ 485:../proyecto.c **** 		}
+ 486:../proyecto.c **** 
+ 487:../proyecto.c **** 	}
+ 488:../proyecto.c **** }
+ 3814              		.loc 1 488 0
+ 3815 0d44 0CD04BE2 		sub	sp, fp, #12
+ 3816 0d48 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3817 0d4c 1EFF2FE1 		bx	lr
+ 3818              	.L79:
+ 3819              		.align	2
+ 3820              	.L78:
+ 3821 0d50 01000000 		.word	init.4318
+ 3822 0d54 D0010000 		.word	.LC11
+ 3823 0d58 00000000 		.word	scancode
+ 3824 0d5c EC010000 		.word	.LC12
+ 3825 0d60 00000000 		.word	firemanPos
+ 3826 0d64 00000000 		.word	firemen
+ 3827 0d68 08020000 		.word	.LC13
+ 3828              		.cfi_endproc
+ 3829              	.LFE16:
+ 3831              		.align	2
+ 3832              		.global	draw_life
+ 3834              	draw_life:
+ 3835              	.LFB17:
+ 489:../proyecto.c **** 
+ 490:../proyecto.c **** void draw_life( void ){
+ 3836              		.loc 1 490 0
+ 3837              		.cfi_startproc
+ 3838              		@ Function supports interworking.
+ 3839              		@ args = 0, pretend = 0, frame = 8
+ 3840              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3841 0d6c 0DC0A0E1 		mov	ip, sp
+ 3842              	.LCFI34:
+ 3843              		.cfi_def_cfa_register 12
+ 3844 0d70 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3845 0d74 04B04CE2 		sub	fp, ip, #4
+ 3846              		.cfi_offset 14, -8
+ 3847              		.cfi_offset 13, -12
+ 3848              		.cfi_offset 11, -16
+ 3849              	.LCFI35:
+ 3850              		.cfi_def_cfa 11, 4
+ 3851 0d78 08D04DE2 		sub	sp, sp, #8
+ 491:../proyecto.c **** 	uint8 i;
+ 492:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // Dibuja los corazones en todas sus posiciones posib
+ 3852              		.loc 1 492 0
+ 3853 0d7c 0030A0E3 		mov	r3, #0
+ 3854 0d80 0D304BE5 		strb	r3, [fp, #-13]
+ 3855 0d84 080000EA 		b	.L81
+ 3856              	.L82:
+ 493:../proyecto.c **** 		sprite_plot( &life, i );
+ 3857              		.loc 1 493 0 discriminator 2
+ 3858 0d88 0D305BE5 		ldrb	r3, [fp, #-13]	@ zero_extendqisi2
+ 3859 0d8c 0338A0E1 		mov	r3, r3, asl #16
+ 3860 0d90 2338A0E1 		mov	r3, r3, lsr #16
+ 3861 0d94 38009FE5 		ldr	r0, .L83
+ 3862 0d98 0310A0E1 		mov	r1, r3
+ 3863 0d9c FEFFFFEB 		bl	sprite_plot
+ 492:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // Dibuja los corazones en todas sus posiciones posib
+ 3864              		.loc 1 492 0 discriminator 2
+ 3865 0da0 0D305BE5 		ldrb	r3, [fp, #-13]
+ 3866 0da4 013083E2 		add	r3, r3, #1
+ 3867 0da8 0D304BE5 		strb	r3, [fp, #-13]
+ 3868              	.L81:
+ 492:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // Dibuja los corazones en todas sus posiciones posib
+ 3869              		.loc 1 492 0 is_stmt 0 discriminator 1
+ 3870 0dac 0D305BE5 		ldrb	r3, [fp, #-13]	@ zero_extendqisi2
+ 3871 0db0 0338A0E1 		mov	r3, r3, asl #16
+ 3872 0db4 2328A0E1 		mov	r2, r3, lsr #16
+ 3873 0db8 14309FE5 		ldr	r3, .L83
+ 3874 0dbc B430D3E1 		ldrh	r3, [r3, #4]
+ 3875 0dc0 030052E1 		cmp	r2, r3
+ 3876 0dc4 EFFFFF3A 		bcc	.L82
+ 494:../proyecto.c **** }
+ 3877              		.loc 1 494 0 is_stmt 1
+ 3878 0dc8 0CD04BE2 		sub	sp, fp, #12
+ 3879 0dcc 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 3880 0dd0 1EFF2FE1 		bx	lr
+ 3881              	.L84:
+ 3882              		.align	2
+ 3883              	.L83:
+ 3884 0dd4 00000000 		.word	life
+ 3885              		.cfi_endproc
+ 3886              	.LFE17:
+ 3888              		.align	2
+ 3889              		.global	lose_life
+ 3891              	lose_life:
+ 3892              	.LFB18:
+ 495:../proyecto.c **** 
+ 496:../proyecto.c **** void lose_life( void ){
+ 3893              		.loc 1 496 0
+ 3894              		.cfi_startproc
+ 3895              		@ Function supports interworking.
+ 3896              		@ args = 0, pretend = 0, frame = 8
+ 3897              		@ frame_needed = 1, uses_anonymous_args = 0
+ 3898 0dd8 0DC0A0E1 		mov	ip, sp
+ 3899              	.LCFI36:
+ 3900              		.cfi_def_cfa_register 12
+ 3901 0ddc 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 3902 0de0 04B04CE2 		sub	fp, ip, #4
+ 3903              		.cfi_offset 14, -8
+ 3904              		.cfi_offset 13, -12
+ 3905              		.cfi_offset 11, -16
+ 3906              	.LCFI37:
+ 3907              		.cfi_def_cfa 11, 4
+ 3908 0de4 08D04DE2 		sub	sp, sp, #8
+ 497:../proyecto.c **** 	hearts--;
+ 3909              		.loc 1 497 0
+ 3910 0de8 5C319FE5 		ldr	r3, .L95
+ 3911 0dec 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3912 0df0 013043E2 		sub	r3, r3, #1
+ 3913 0df4 FF2003E2 		and	r2, r3, #255
+ 3914 0df8 4C319FE5 		ldr	r3, .L95
+ 3915 0dfc 0020C3E5 		strb	r2, [r3, #0]
+ 498:../proyecto.c **** 	uint8 i;
+ 499:../proyecto.c **** 
+ 500:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // borra los corazones en todas sus posiciones posibl
+ 3916              		.loc 1 500 0
+ 3917 0e00 0030A0E3 		mov	r3, #0
+ 3918 0e04 0D304BE5 		strb	r3, [fp, #-13]
+ 3919 0e08 080000EA 		b	.L86
+ 3920              	.L87:
+ 501:../proyecto.c **** 			sprite_clear( &life, i );
+ 3921              		.loc 1 501 0 discriminator 2
+ 3922 0e0c 0D305BE5 		ldrb	r3, [fp, #-13]	@ zero_extendqisi2
+ 3923 0e10 0338A0E1 		mov	r3, r3, asl #16
+ 3924 0e14 2338A0E1 		mov	r3, r3, lsr #16
+ 3925 0e18 30019FE5 		ldr	r0, .L95+4
+ 3926 0e1c 0310A0E1 		mov	r1, r3
+ 3927 0e20 FEFFFFEB 		bl	sprite_clear
+ 500:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // borra los corazones en todas sus posiciones posibl
+ 3928              		.loc 1 500 0 discriminator 2
+ 3929 0e24 0D305BE5 		ldrb	r3, [fp, #-13]
+ 3930 0e28 013083E2 		add	r3, r3, #1
+ 3931 0e2c 0D304BE5 		strb	r3, [fp, #-13]
+ 3932              	.L86:
+ 500:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // borra los corazones en todas sus posiciones posibl
+ 3933              		.loc 1 500 0 is_stmt 0 discriminator 1
+ 3934 0e30 0D305BE5 		ldrb	r3, [fp, #-13]	@ zero_extendqisi2
+ 3935 0e34 0338A0E1 		mov	r3, r3, asl #16
+ 3936 0e38 2328A0E1 		mov	r2, r3, lsr #16
+ 3937 0e3c 0C319FE5 		ldr	r3, .L95+4
+ 3938 0e40 B430D3E1 		ldrh	r3, [r3, #4]
+ 3939 0e44 030052E1 		cmp	r2, r3
+ 3940 0e48 EFFFFF3A 		bcc	.L87
+ 502:../proyecto.c **** 
+ 503:../proyecto.c **** 	if(hearts > 0){
+ 3941              		.loc 1 503 0 is_stmt 1
+ 3942 0e4c F8309FE5 		ldr	r3, .L95
+ 3943 0e50 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3944 0e54 000053E3 		cmp	r3, #0
+ 3945 0e58 1100000A 		beq	.L88
+ 504:../proyecto.c **** 		for( i=0; i<hearts; i++ )           // Dibuja los corazones en sus posiciones
+ 3946              		.loc 1 504 0
+ 3947 0e5c 0030A0E3 		mov	r3, #0
+ 3948 0e60 0D304BE5 		strb	r3, [fp, #-13]
+ 3949 0e64 080000EA 		b	.L89
+ 3950              	.L90:
+ 505:../proyecto.c **** 			sprite_plot( &life, i );
+ 3951              		.loc 1 505 0 discriminator 2
+ 3952 0e68 0D305BE5 		ldrb	r3, [fp, #-13]	@ zero_extendqisi2
+ 3953 0e6c 0338A0E1 		mov	r3, r3, asl #16
+ 3954 0e70 2338A0E1 		mov	r3, r3, lsr #16
+ 3955 0e74 D4009FE5 		ldr	r0, .L95+4
+ 3956 0e78 0310A0E1 		mov	r1, r3
+ 3957 0e7c FEFFFFEB 		bl	sprite_plot
+ 504:../proyecto.c **** 		for( i=0; i<hearts; i++ )           // Dibuja los corazones en sus posiciones
+ 3958              		.loc 1 504 0 discriminator 2
+ 3959 0e80 0D305BE5 		ldrb	r3, [fp, #-13]
+ 3960 0e84 013083E2 		add	r3, r3, #1
+ 3961 0e88 0D304BE5 		strb	r3, [fp, #-13]
+ 3962              	.L89:
+ 504:../proyecto.c **** 		for( i=0; i<hearts; i++ )           // Dibuja los corazones en sus posiciones
+ 3963              		.loc 1 504 0 is_stmt 0 discriminator 1
+ 3964 0e8c B8309FE5 		ldr	r3, .L95
+ 3965 0e90 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3966 0e94 0D205BE5 		ldrb	r2, [fp, #-13]	@ zero_extendqisi2
+ 3967 0e98 030052E1 		cmp	r2, r3
+ 3968 0e9c F1FFFF3A 		bcc	.L90
+ 504:../proyecto.c **** 		for( i=0; i<hearts; i++ )           // Dibuja los corazones en sus posiciones
+ 3969              		.loc 1 504 0
+ 3970 0ea0 260000EA 		b	.L85
+ 3971              	.L88:
+ 3972              	.LBB2:
+ 506:../proyecto.c **** 
+ 507:../proyecto.c **** 	}else {
+ 508:../proyecto.c **** 		gameOver = TRUE;
+ 3973              		.loc 1 508 0 is_stmt 1
+ 3974 0ea4 A8309FE5 		ldr	r3, .L95+8
+ 3975 0ea8 0120A0E3 		mov	r2, #1
+ 3976 0eac 0020C3E5 		strb	r2, [r3, #0]
+ 509:../proyecto.c **** 		lose_game = TRUE;
+ 3977              		.loc 1 509 0
+ 3978 0eb0 A0309FE5 		ldr	r3, .L95+12
+ 3979 0eb4 0120A0E3 		mov	r2, #1
+ 3980 0eb8 0020C3E5 		strb	r2, [r3, #0]
+ 510:../proyecto.c **** 		sprite_clear(&dummy, dummyPos);
+ 3981              		.loc 1 510 0
+ 3982 0ebc 98309FE5 		ldr	r3, .L95+16
+ 3983 0ec0 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 3984 0ec4 94009FE5 		ldr	r0, .L95+20
+ 3985 0ec8 0310A0E1 		mov	r1, r3
+ 3986 0ecc FEFFFFEB 		bl	sprite_clear
+ 511:../proyecto.c **** 		uint8 i;
+ 512:../proyecto.c **** 		boolean encontrado = FALSE;
+ 3987              		.loc 1 512 0
+ 3988 0ed0 0030A0E3 		mov	r3, #0
+ 3989 0ed4 0F304BE5 		strb	r3, [fp, #-15]
+ 513:../proyecto.c **** 		while(!encontrado){
+ 3990              		.loc 1 513 0
+ 3991 0ed8 150000EA 		b	.L92
+ 3992              	.L94:
+ 514:../proyecto.c **** 			if(dummy.plots[2].x == crash.plots[i].x){
+ 3993              		.loc 1 514 0
+ 3994 0edc 7C309FE5 		ldr	r3, .L95+20
+ 3995 0ee0 B821D3E1 		ldrh	r2, [r3, #24]
+ 3996 0ee4 0E305BE5 		ldrb	r3, [fp, #-14]	@ zero_extendqisi2
+ 3997 0ee8 74109FE5 		ldr	r1, .L95+24
+ 3998 0eec 013083E2 		add	r3, r3, #1
+ 3999 0ef0 8331A0E1 		mov	r3, r3, asl #3
+ 4000 0ef4 033081E0 		add	r3, r1, r3
+ 4001 0ef8 B030D3E1 		ldrh	r3, [r3, #0]
+ 4002 0efc 030052E1 		cmp	r2, r3
+ 4003 0f00 0800001A 		bne	.L93
+ 515:../proyecto.c **** 				sprite_clear(&crash, i);
+ 4004              		.loc 1 515 0
+ 4005 0f04 0E305BE5 		ldrb	r3, [fp, #-14]	@ zero_extendqisi2
+ 4006 0f08 0338A0E1 		mov	r3, r3, asl #16
+ 4007 0f0c 2338A0E1 		mov	r3, r3, lsr #16
+ 4008 0f10 4C009FE5 		ldr	r0, .L95+24
+ 4009 0f14 0310A0E1 		mov	r1, r3
+ 4010 0f18 FEFFFFEB 		bl	sprite_clear
+ 516:../proyecto.c **** 				encontrado = TRUE;
+ 4011              		.loc 1 516 0
+ 4012 0f1c 0130A0E3 		mov	r3, #1
+ 4013 0f20 0F304BE5 		strb	r3, [fp, #-15]
+ 4014 0f24 020000EA 		b	.L92
+ 4015              	.L93:
+ 517:../proyecto.c **** 			}else{
+ 518:../proyecto.c **** 				i++;
+ 4016              		.loc 1 518 0
+ 4017 0f28 0E305BE5 		ldrb	r3, [fp, #-14]
+ 4018 0f2c 013083E2 		add	r3, r3, #1
+ 4019 0f30 0E304BE5 		strb	r3, [fp, #-14]
+ 4020              	.L92:
+ 513:../proyecto.c **** 		while(!encontrado){
+ 4021              		.loc 1 513 0 discriminator 1
+ 4022 0f34 0F305BE5 		ldrb	r3, [fp, #-15]	@ zero_extendqisi2
+ 4023 0f38 000053E3 		cmp	r3, #0
+ 4024 0f3c E6FFFF0A 		beq	.L94
+ 4025              	.L85:
+ 4026              	.LBE2:
+ 519:../proyecto.c **** 			}
+ 520:../proyecto.c **** 		}
+ 521:../proyecto.c **** 	}
+ 522:../proyecto.c **** }
+ 4027              		.loc 1 522 0
+ 4028 0f40 0CD04BE2 		sub	sp, fp, #12
+ 4029 0f44 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4030 0f48 1EFF2FE1 		bx	lr
+ 4031              	.L96:
+ 4032              		.align	2
+ 4033              	.L95:
+ 4034 0f4c 00000000 		.word	hearts
+ 4035 0f50 00000000 		.word	life
+ 4036 0f54 00000000 		.word	gameOver
+ 4037 0f58 00000000 		.word	lose_game
+ 4038 0f5c 00000000 		.word	dummyPos
+ 4039 0f60 00000000 		.word	dummy
+ 4040 0f64 00000000 		.word	crash
+ 4041              		.cfi_endproc
+ 4042              	.LFE18:
+ 4044              		.align	2
+ 4045              		.global	start_game
+ 4047              	start_game:
+ 4048              	.LFB19:
+ 523:../proyecto.c **** 
+ 524:../proyecto.c **** void start_game ( void ){
+ 4049              		.loc 1 524 0
+ 4050              		.cfi_startproc
+ 4051              		@ Function supports interworking.
+ 4052              		@ args = 0, pretend = 0, frame = 0
+ 4053              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4054 0f68 0DC0A0E1 		mov	ip, sp
+ 4055              	.LCFI38:
+ 4056              		.cfi_def_cfa_register 12
+ 4057 0f6c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4058 0f70 04B04CE2 		sub	fp, ip, #4
+ 4059              		.cfi_offset 14, -8
+ 4060              		.cfi_offset 13, -12
+ 4061              		.cfi_offset 11, -16
+ 4062              	.LCFI39:
+ 4063              		.cfi_def_cfa 11, 4
+ 525:../proyecto.c **** 	lcd_putWallpaper( LANDSCAPE );              // Dibuja el fondo de la pantalla
+ 4064              		.loc 1 525 0
+ 4065 0f74 20009FE5 		ldr	r0, .L98
+ 4066 0f78 FEFFFFEB 		bl	lcd_putWallpaper
+ 526:../proyecto.c **** 	init_fireman(); 							// inicializa el bombero
+ 4067              		.loc 1 526 0
+ 4068 0f7c FEFFFFEB 		bl	init_fireman
+ 527:../proyecto.c **** 	draw_life();								// vidas
+ 4069              		.loc 1 527 0
+ 4070 0f80 FEFFFFEB 		bl	draw_life
+ 528:../proyecto.c **** 	dummy_init();                               // Inicializa las tareas
+ 4071              		.loc 1 528 0
+ 4072 0f84 FEFFFFEB 		bl	dummy_init
+ 529:../proyecto.c **** 	count_init();								// contador de dummies
+ 4073              		.loc 1 529 0
+ 4074 0f88 FEFFFFEB 		bl	count_init
+ 530:../proyecto.c **** 	teclaMoveFireman();							// gestion movimientos de bomberos
+ 4075              		.loc 1 530 0
+ 4076 0f8c FEFFFFEB 		bl	teclaMoveFireman
+ 531:../proyecto.c **** }
+ 4077              		.loc 1 531 0
+ 4078 0f90 0CD04BE2 		sub	sp, fp, #12
+ 4079 0f94 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4080 0f98 1EFF2FE1 		bx	lr
+ 4081              	.L99:
+ 4082              		.align	2
+ 4083              	.L98:
+ 4084 0f9c 0000250C 		.word	203751424
+ 4085              		.cfi_endproc
+ 4086              	.LFE19:
+ 4088              		.align	2
+ 4089              		.global	start_play
+ 4091              	start_play:
+ 4092              	.LFB20:
+ 532:../proyecto.c **** 
+ 533:../proyecto.c **** void start_play( void ){
+ 4093              		.loc 1 533 0
+ 4094              		.cfi_startproc
+ 4095              		@ Function supports interworking.
+ 4096              		@ args = 0, pretend = 0, frame = 8
+ 4097              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4098 0fa0 0DC0A0E1 		mov	ip, sp
+ 4099              	.LCFI40:
+ 4100              		.cfi_def_cfa_register 12
+ 4101 0fa4 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4102 0fa8 04B04CE2 		sub	fp, ip, #4
+ 4103              		.cfi_offset 14, -8
+ 4104              		.cfi_offset 13, -12
+ 4105              		.cfi_offset 11, -16
+ 4106              	.LCFI41:
+ 4107              		.cfi_def_cfa 11, 4
+ 4108 0fac 08D04DE2 		sub	sp, sp, #8
+ 534:../proyecto.c **** 	//sprite_clear( &dummy, dummyPos );
+ 535:../proyecto.c **** 	sprite_plot(&crash, caida);
+ 4109              		.loc 1 535 0
+ 4110 0fb0 40319FE5 		ldr	r3, .L104
+ 4111 0fb4 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4112 0fb8 3C019FE5 		ldr	r0, .L104+4
+ 4113 0fbc 0310A0E1 		mov	r1, r3
+ 4114 0fc0 FEFFFFEB 		bl	sprite_plot
+ 536:../proyecto.c **** 	sw_delay_ms(400);
+ 4115              		.loc 1 536 0
+ 4116 0fc4 190EA0E3 		mov	r0, #400
+ 4117 0fc8 FEFFFFEB 		bl	sw_delay_ms
+ 537:../proyecto.c **** 
+ 538:../proyecto.c **** 	uint16 i;
+ 539:../proyecto.c **** 	sprite_clear( &firemen, firemanPos );
+ 4118              		.loc 1 539 0
+ 4119 0fcc 2C319FE5 		ldr	r3, .L104+8
+ 4120 0fd0 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4121 0fd4 28019FE5 		ldr	r0, .L104+12
+ 4122 0fd8 0310A0E1 		mov	r1, r3
+ 4123 0fdc FEFFFFEB 		bl	sprite_clear
+ 540:../proyecto.c **** 	sprite_clear( &dummy, dummyPos );
+ 4124              		.loc 1 540 0
+ 4125 0fe0 20319FE5 		ldr	r3, .L104+16
+ 4126 0fe4 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4127 0fe8 1C019FE5 		ldr	r0, .L104+20
+ 4128 0fec 0310A0E1 		mov	r1, r3
+ 4129 0ff0 FEFFFFEB 		bl	sprite_clear
+ 541:../proyecto.c **** 	sprite_clear(&crash, caida);
+ 4130              		.loc 1 541 0
+ 4131 0ff4 FC309FE5 		ldr	r3, .L104
+ 4132 0ff8 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4133 0ffc F8009FE5 		ldr	r0, .L104+4
+ 4134 1000 0310A0E1 		mov	r1, r3
+ 4135 1004 FEFFFFEB 		bl	sprite_clear
+ 542:../proyecto.c **** 
+ 543:../proyecto.c **** 	sw_delay_ms(40);
+ 4136              		.loc 1 543 0
+ 4137 1008 2800A0E3 		mov	r0, #40
+ 4138 100c FEFFFFEB 		bl	sw_delay_ms
+ 544:../proyecto.c **** 	lcd_putWallpaper(LANDSCAPE);
+ 4139              		.loc 1 544 0
+ 4140 1010 F8009FE5 		ldr	r0, .L104+24
+ 4141 1014 FEFFFFEB 		bl	lcd_putWallpaper
+ 545:../proyecto.c **** 	dummyPos = 0;
+ 4142              		.loc 1 545 0
+ 4143 1018 E8309FE5 		ldr	r3, .L104+16
+ 4144 101c 0020A0E3 		mov	r2, #0
+ 4145 1020 0020C3E5 		strb	r2, [r3, #0]
+ 546:../proyecto.c **** 	firemanPos = 0;
+ 4146              		.loc 1 546 0
+ 4147 1024 D4309FE5 		ldr	r3, .L104+8
+ 4148 1028 0020A0E3 		mov	r2, #0
+ 4149 102c 0020C3E5 		strb	r2, [r3, #0]
+ 547:../proyecto.c **** 	draw_life();
+ 4150              		.loc 1 547 0
+ 4151 1030 FEFFFFEB 		bl	draw_life
+ 548:../proyecto.c **** 	sprite_plot(&dummy, dummyPos);
+ 4152              		.loc 1 548 0
+ 4153 1034 CC309FE5 		ldr	r3, .L104+16
+ 4154 1038 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4155 103c C8009FE5 		ldr	r0, .L104+20
+ 4156 1040 0310A0E1 		mov	r1, r3
+ 4157 1044 FEFFFFEB 		bl	sprite_plot
+ 549:../proyecto.c **** 	sprite_plot(&firemen, firemanPos);
+ 4158              		.loc 1 549 0
+ 4159 1048 B0309FE5 		ldr	r3, .L104+8
+ 4160 104c 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4161 1050 AC009FE5 		ldr	r0, .L104+12
+ 4162 1054 0310A0E1 		mov	r1, r3
+ 4163 1058 FEFFFFEB 		bl	sprite_plot
+ 550:../proyecto.c **** 	lcd_putint_x2( 287, 0, BLACK, count );
+ 4164              		.loc 1 550 0
+ 4165 105c B0309FE5 		ldr	r3, .L104+28
+ 4166 1060 B030D3E1 		ldrh	r3, [r3, #0]
+ 4167 1064 AC009FE5 		ldr	r0, .L104+32
+ 4168 1068 0010A0E3 		mov	r1, #0
+ 4169 106c 0F20A0E3 		mov	r2, #15
+ 4170 1070 FEFFFFEB 		bl	lcd_putint_x2
+ 551:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // Dibuja los corazones en todas sus posiciones posib
+ 4171              		.loc 1 551 0
+ 4172 1074 0030A0E3 		mov	r3, #0
+ 4173 1078 BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 4174 107c 060000EA 		b	.L101
+ 4175              	.L102:
+ 552:../proyecto.c **** 			sprite_plot( &life, i );
+ 4176              		.loc 1 552 0 discriminator 2
+ 4177 1080 BE305BE1 		ldrh	r3, [fp, #-14]
+ 4178 1084 90009FE5 		ldr	r0, .L104+36
+ 4179 1088 0310A0E1 		mov	r1, r3
+ 4180 108c FEFFFFEB 		bl	sprite_plot
+ 551:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // Dibuja los corazones en todas sus posiciones posib
+ 4181              		.loc 1 551 0 discriminator 2
+ 4182 1090 BE305BE1 		ldrh	r3, [fp, #-14]	@ movhi
+ 4183 1094 013083E2 		add	r3, r3, #1
+ 4184 1098 BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 4185              	.L101:
+ 551:../proyecto.c **** 	for(i = 0; i<life.num_plots; i++ )           // Dibuja los corazones en todas sus posiciones posib
+ 4186              		.loc 1 551 0 is_stmt 0 discriminator 1
+ 4187 109c 78309FE5 		ldr	r3, .L104+36
+ 4188 10a0 B430D3E1 		ldrh	r3, [r3, #4]
+ 4189 10a4 BE205BE1 		ldrh	r2, [fp, #-14]
+ 4190 10a8 030052E1 		cmp	r2, r3
+ 4191 10ac F3FFFF3A 		bcc	.L102
+ 553:../proyecto.c **** 
+ 554:../proyecto.c **** 	draw_life();
+ 4192              		.loc 1 554 0 is_stmt 1
+ 4193 10b0 FEFFFFEB 		bl	draw_life
+ 555:../proyecto.c **** 
+ 556:../proyecto.c **** 	if(count == 9 && hearts > 1){
+ 4194              		.loc 1 556 0
+ 4195 10b4 58309FE5 		ldr	r3, .L104+28
+ 4196 10b8 B030D3E1 		ldrh	r3, [r3, #0]
+ 4197 10bc 090053E3 		cmp	r3, #9
+ 4198 10c0 0900001A 		bne	.L100
+ 4199              		.loc 1 556 0 is_stmt 0 discriminator 1
+ 4200 10c4 54309FE5 		ldr	r3, .L104+40
+ 4201 10c8 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4202 10cc 010053E3 		cmp	r3, #1
+ 4203 10d0 0500009A 		bls	.L100
+ 557:../proyecto.c **** 			gameOver = TRUE;
+ 4204              		.loc 1 557 0 is_stmt 1
+ 4205 10d4 48309FE5 		ldr	r3, .L104+44
+ 4206 10d8 0120A0E3 		mov	r2, #1
+ 4207 10dc 0020C3E5 		strb	r2, [r3, #0]
+ 558:../proyecto.c **** 			win_game = TRUE;
+ 4208              		.loc 1 558 0
+ 4209 10e0 40309FE5 		ldr	r3, .L104+48
+ 4210 10e4 0120A0E3 		mov	r2, #1
+ 4211 10e8 0020C3E5 		strb	r2, [r3, #0]
+ 4212              	.L100:
+ 559:../proyecto.c **** 	}
+ 560:../proyecto.c **** }
+ 4213              		.loc 1 560 0
+ 4214 10ec 0CD04BE2 		sub	sp, fp, #12
+ 4215 10f0 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4216 10f4 1EFF2FE1 		bx	lr
+ 4217              	.L105:
+ 4218              		.align	2
+ 4219              	.L104:
+ 4220 10f8 00000000 		.word	caida
+ 4221 10fc 00000000 		.word	crash
+ 4222 1100 00000000 		.word	firemanPos
+ 4223 1104 00000000 		.word	firemen
+ 4224 1108 00000000 		.word	dummyPos
+ 4225 110c 00000000 		.word	dummy
+ 4226 1110 0000250C 		.word	203751424
+ 4227 1114 00000000 		.word	count
+ 4228 1118 1F010000 		.word	287
+ 4229 111c 00000000 		.word	life
+ 4230 1120 00000000 		.word	hearts
+ 4231 1124 00000000 		.word	gameOver
+ 4232 1128 00000000 		.word	win_game
+ 4233              		.cfi_endproc
+ 4234              	.LFE20:
+ 4236              		.section	.rodata
+ 4237 0222 0000     		.align	2
+ 4238              	.LC14:
+ 4239 0224 48617320 		.ascii	"Has decidido salir del juego\012\000"
+ 4239      64656369 
+ 4239      6469646F 
+ 4239      2073616C 
+ 4239      69722064 
+ 4240 0242 0000     		.align	2
+ 4241              	.LC15:
+ 4242 0244 73616C69 		.ascii	"saliendo..\000"
+ 4242      656E646F 
+ 4242      2E2E00
+ 4243 024f 00       		.align	2
+ 4244              	.LC16:
+ 4245 0250 42594520 		.ascii	"BYE BYE!\000"
+ 4245      42594521 
+ 4245      00
+ 4246              		.text
+ 4247              		.align	2
+ 4248              		.global	exit_game
+ 4250              	exit_game:
+ 4251              	.LFB21:
+ 561:../proyecto.c **** 
+ 562:../proyecto.c **** void exit_game( void ){
+ 4252              		.loc 1 562 0
+ 4253              		.cfi_startproc
+ 4254              		@ Function supports interworking.
+ 4255              		@ args = 0, pretend = 0, frame = 0
+ 4256              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4257 112c 0DC0A0E1 		mov	ip, sp
+ 4258              	.LCFI42:
+ 4259              		.cfi_def_cfa_register 12
+ 4260 1130 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4261 1134 04B04CE2 		sub	fp, ip, #4
+ 4262              		.cfi_offset 14, -8
+ 4263              		.cfi_offset 13, -12
+ 4264              		.cfi_offset 11, -16
+ 4265              	.LCFI43:
+ 4266              		.cfi_def_cfa 11, 4
+ 563:../proyecto.c **** 	uart0_puts( "Has decidido salir del juego\n" );
+ 4267              		.loc 1 563 0
+ 4268 1138 34009FE5 		ldr	r0, .L107
+ 4269 113c FEFFFFEB 		bl	uart0_puts
+ 564:../proyecto.c **** 	lcd_puts_x2( 20, 50, BLACK, "saliendo..");
+ 4270              		.loc 1 564 0
+ 4271 1140 1400A0E3 		mov	r0, #20
+ 4272 1144 3210A0E3 		mov	r1, #50
+ 4273 1148 0F20A0E3 		mov	r2, #15
+ 4274 114c 24309FE5 		ldr	r3, .L107+4
+ 4275 1150 FEFFFFEB 		bl	lcd_puts_x2
+ 565:../proyecto.c **** 	lcd_puts_x2( 40, 90, BLACK, "BYE BYE!");
+ 4276              		.loc 1 565 0
+ 4277 1154 2800A0E3 		mov	r0, #40
+ 4278 1158 5A10A0E3 		mov	r1, #90
+ 4279 115c 0F20A0E3 		mov	r2, #15
+ 4280 1160 14309FE5 		ldr	r3, .L107+8
+ 4281 1164 FEFFFFEB 		bl	lcd_puts_x2
+ 566:../proyecto.c **** }
+ 4282              		.loc 1 566 0
+ 4283 1168 0CD04BE2 		sub	sp, fp, #12
+ 4284 116c 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4285 1170 1EFF2FE1 		bx	lr
+ 4286              	.L108:
+ 4287              		.align	2
+ 4288              	.L107:
+ 4289 1174 24020000 		.word	.LC14
+ 4290 1178 44020000 		.word	.LC15
+ 4291 117c 50020000 		.word	.LC16
+ 4292              		.cfi_endproc
+ 4293              	.LFE21:
+ 4295              		.section	.rodata
+ 4296 0259 000000   		.align	2
+ 4297              	.LC17:
+ 4298 025c 48617320 		.ascii	"Has ganado la partida\012\000"
+ 4298      67616E61 
+ 4298      646F206C 
+ 4298      61207061 
+ 4298      72746964 
+ 4299 0273 00       		.align	2
+ 4300              	.LC18:
+ 4301 0274 594F5520 		.ascii	"YOU WIN!\000"
+ 4301      57494E21 
+ 4301      00
+ 4302 027d 000000   		.align	2
+ 4303              	.LC19:
+ 4304 0280 5E205E00 		.ascii	"^ ^\000"
+ 4305              		.align	2
+ 4306              	.LC20:
+ 4307 0284 2E00     		.ascii	".\000"
+ 4308              		.text
+ 4309              		.align	2
+ 4310              		.global	win
+ 4312              	win:
+ 4313              	.LFB22:
+ 567:../proyecto.c **** 
+ 568:../proyecto.c **** void win( void ){
+ 4314              		.loc 1 568 0
+ 4315              		.cfi_startproc
+ 4316              		@ Function supports interworking.
+ 4317              		@ args = 0, pretend = 0, frame = 0
+ 4318              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4319 1180 0DC0A0E1 		mov	ip, sp
+ 4320              	.LCFI44:
+ 4321              		.cfi_def_cfa_register 12
+ 4322 1184 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4323 1188 04B04CE2 		sub	fp, ip, #4
+ 4324              		.cfi_offset 14, -8
+ 4325              		.cfi_offset 13, -12
+ 4326              		.cfi_offset 11, -16
+ 4327              	.LCFI45:
+ 4328              		.cfi_def_cfa 11, 4
+ 569:../proyecto.c **** 	uart0_puts( "Has ganado la partida\n" );
+ 4329              		.loc 1 569 0
+ 4330 118c 48009FE5 		ldr	r0, .L110
+ 4331 1190 FEFFFFEB 		bl	uart0_puts
+ 570:../proyecto.c **** 	lcd_puts_x2( 20, 50, BLACK, "YOU WIN!");
+ 4332              		.loc 1 570 0
+ 4333 1194 1400A0E3 		mov	r0, #20
+ 4334 1198 3210A0E3 		mov	r1, #50
+ 4335 119c 0F20A0E3 		mov	r2, #15
+ 4336 11a0 38309FE5 		ldr	r3, .L110+4
+ 4337 11a4 FEFFFFEB 		bl	lcd_puts_x2
+ 571:../proyecto.c **** 	lcd_puts_x2( 40, 80, BLACK, "^ ^");
+ 4338              		.loc 1 571 0
+ 4339 11a8 2800A0E3 		mov	r0, #40
+ 4340 11ac 5010A0E3 		mov	r1, #80
+ 4341 11b0 0F20A0E3 		mov	r2, #15
+ 4342 11b4 28309FE5 		ldr	r3, .L110+8
+ 4343 11b8 FEFFFFEB 		bl	lcd_puts_x2
+ 572:../proyecto.c **** 	lcd_puts_x2( 50, 90, BLACK, ".");
+ 4344              		.loc 1 572 0
+ 4345 11bc 3200A0E3 		mov	r0, #50
+ 4346 11c0 5A10A0E3 		mov	r1, #90
+ 4347 11c4 0F20A0E3 		mov	r2, #15
+ 4348 11c8 18309FE5 		ldr	r3, .L110+12
+ 4349 11cc FEFFFFEB 		bl	lcd_puts_x2
+ 573:../proyecto.c **** }
+ 4350              		.loc 1 573 0
+ 4351 11d0 0CD04BE2 		sub	sp, fp, #12
+ 4352 11d4 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4353 11d8 1EFF2FE1 		bx	lr
+ 4354              	.L111:
+ 4355              		.align	2
+ 4356              	.L110:
+ 4357 11dc 5C020000 		.word	.LC17
+ 4358 11e0 74020000 		.word	.LC18
+ 4359 11e4 80020000 		.word	.LC19
+ 4360 11e8 84020000 		.word	.LC20
+ 4361              		.cfi_endproc
+ 4362              	.LFE22:
+ 4364              		.section	.rodata
+ 4365 0286 0000     		.align	2
+ 4366              	.LC21:
+ 4367 0288 48617320 		.ascii	"Has perdido la partida\012\000"
+ 4367      70657264 
+ 4367      69646F20 
+ 4367      6C612070 
+ 4367      61727469 
+ 4368              		.align	2
+ 4369              	.LC22:
+ 4370 02a0 594F5520 		.ascii	"YOU LOSE..\000"
+ 4370      4C4F5345 
+ 4370      2E2E00
+ 4371 02ab 00       		.align	2
+ 4372              	.LC23:
+ 4373 02ac 78202020 		.ascii	"x     x\000"
+ 4373      20207800 
+ 4374              		.align	2
+ 4375              	.LC24:
+ 4376 02b4 205F5F5F 		.ascii	" ___\000"
+ 4376      00
+ 4377              		.text
+ 4378              		.align	2
+ 4379              		.global	lose
+ 4381              	lose:
+ 4382              	.LFB23:
+ 574:../proyecto.c **** 
+ 575:../proyecto.c **** void lose( void ){
+ 4383              		.loc 1 575 0
+ 4384              		.cfi_startproc
+ 4385              		@ Function supports interworking.
+ 4386              		@ args = 0, pretend = 0, frame = 0
+ 4387              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4388 11ec 0DC0A0E1 		mov	ip, sp
+ 4389              	.LCFI46:
+ 4390              		.cfi_def_cfa_register 12
+ 4391 11f0 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4392 11f4 04B04CE2 		sub	fp, ip, #4
+ 4393              		.cfi_offset 14, -8
+ 4394              		.cfi_offset 13, -12
+ 4395              		.cfi_offset 11, -16
+ 4396              	.LCFI47:
+ 4397              		.cfi_def_cfa 11, 4
+ 576:../proyecto.c **** 	uart0_puts( "Has perdido la partida\n" );
+ 4398              		.loc 1 576 0
+ 4399 11f8 48009FE5 		ldr	r0, .L113
+ 4400 11fc FEFFFFEB 		bl	uart0_puts
+ 577:../proyecto.c **** 	lcd_puts_x2( 20, 50, BLACK, "YOU LOSE..");
+ 4401              		.loc 1 577 0
+ 4402 1200 1400A0E3 		mov	r0, #20
+ 4403 1204 3210A0E3 		mov	r1, #50
+ 4404 1208 0F20A0E3 		mov	r2, #15
+ 4405 120c 38309FE5 		ldr	r3, .L113+4
+ 4406 1210 FEFFFFEB 		bl	lcd_puts_x2
+ 578:../proyecto.c **** 	lcd_puts_x2( 40, 75, BLACK, "x     x");
+ 4407              		.loc 1 578 0
+ 4408 1214 2800A0E3 		mov	r0, #40
+ 4409 1218 4B10A0E3 		mov	r1, #75
+ 4410 121c 0F20A0E3 		mov	r2, #15
+ 4411 1220 28309FE5 		ldr	r3, .L113+8
+ 4412 1224 FEFFFFEB 		bl	lcd_puts_x2
+ 579:../proyecto.c **** 	lcd_puts_x2( 50, 100, BLACK, " ___");
+ 4413              		.loc 1 579 0
+ 4414 1228 3200A0E3 		mov	r0, #50
+ 4415 122c 6410A0E3 		mov	r1, #100
+ 4416 1230 0F20A0E3 		mov	r2, #15
+ 4417 1234 18309FE5 		ldr	r3, .L113+12
+ 4418 1238 FEFFFFEB 		bl	lcd_puts_x2
+ 580:../proyecto.c **** }
+ 4419              		.loc 1 580 0
+ 4420 123c 0CD04BE2 		sub	sp, fp, #12
+ 4421 1240 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4422 1244 1EFF2FE1 		bx	lr
+ 4423              	.L114:
+ 4424              		.align	2
+ 4425              	.L113:
+ 4426 1248 88020000 		.word	.LC21
+ 4427 124c A0020000 		.word	.LC22
+ 4428 1250 AC020000 		.word	.LC23
+ 4429 1254 B4020000 		.word	.LC24
+ 4430              		.cfi_endproc
+ 4431              	.LFE23:
+ 4433              		.align	2
+ 4434              		.global	initMusic
+ 4436              	initMusic:
+ 4437              	.LFB24:
+ 581:../proyecto.c **** 
+ 582:../proyecto.c **** void initMusic( void ){
+ 4438              		.loc 1 582 0
+ 4439              		.cfi_startproc
+ 4440              		@ Function supports interworking.
+ 4441              		@ args = 0, pretend = 0, frame = 0
+ 4442              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4443 1258 0DC0A0E1 		mov	ip, sp
+ 4444              	.LCFI48:
+ 4445              		.cfi_def_cfa_register 12
+ 4446 125c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4447 1260 04B04CE2 		sub	fp, ip, #4
+ 4448              		.cfi_offset 14, -8
+ 4449              		.cfi_offset 13, -12
+ 4450              		.cfi_offset 11, -16
+ 4451              	.LCFI49:
+ 4452              		.cfi_def_cfa 11, 4
+ 583:../proyecto.c **** 	uda1341ts_setvol(VOL_MAX);
+ 4453              		.loc 1 583 0
+ 4454 1264 3F00A0E3 		mov	r0, #63
+ 4455 1268 FEFFFFEB 		bl	uda1341ts_setvol
+ 584:../proyecto.c **** 	iis_playWawFile(MUSIC, TRUE);
+ 4456              		.loc 1 584 0
+ 4457 126c 1C009FE5 		ldr	r0, .L116
+ 4458 1270 0110A0E3 		mov	r1, #1
+ 4459 1274 FEFFFFEB 		bl	iis_playWawFile
+ 585:../proyecto.c **** 	music = TRUE;
+ 4460              		.loc 1 585 0
+ 4461 1278 14309FE5 		ldr	r3, .L116+4
+ 4462 127c 0120A0E3 		mov	r2, #1
+ 4463 1280 0020C3E5 		strb	r2, [r3, #0]
+ 586:../proyecto.c **** }
+ 4464              		.loc 1 586 0
+ 4465 1284 0CD04BE2 		sub	sp, fp, #12
+ 4466 1288 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4467 128c 1EFF2FE1 		bx	lr
+ 4468              	.L117:
+ 4469              		.align	2
+ 4470              	.L116:
+ 4471 1290 00A0470C 		.word	206020608
+ 4472 1294 00000000 		.word	music
+ 4473              		.cfi_endproc
+ 4474              	.LFE24:
+ 4476              		.section	.rodata
+ 4477 02b9 000000   		.align	2
+ 4478              	.LC25:
+ 4479 02bc 4C656374 		.ascii	"Lectura de pulsadores sin espera m\341xima usando p"
+ 4479      75726120 
+ 4479      64652070 
+ 4479      756C7361 
+ 4479      646F7265 
+ 4480 02ec 625F6765 		.ascii	"b_getchar():\012\000"
+ 4480      74636861 
+ 4480      7228293A 
+ 4480      0A00
+ 4481 02fa 0000     		.align	2
+ 4482              	.LC26:
+ 4483 02fc 20202D20 		.ascii	"  - Error de lectura\012\000"
+ 4483      4572726F 
+ 4483      72206465 
+ 4483      206C6563 
+ 4483      74757261 
+ 4484 0312 0000     		.align	2
+ 4485              	.LC27:
+ 4486 0314 20202D20 		.ascii	"  - El pulsador izquierdo ha sido presionado\012\000"
+ 4486      456C2070 
+ 4486      756C7361 
+ 4486      646F7220 
+ 4486      697A7175 
+ 4487 0342 0000     		.align	2
+ 4488              	.LC28:
+ 4489 0344 20202D20 		.ascii	"  - El pulsador derecho ha sido presionado\012\000"
+ 4489      456C2070 
+ 4489      756C7361 
+ 4489      646F7220 
+ 4489      64657265 
+ 4490              		.text
+ 4491              		.align	2
+ 4492              		.global	pulsador
+ 4494              	pulsador:
+ 4495              	.LFB25:
+ 587:../proyecto.c **** 
+ 588:../proyecto.c **** void pulsador ( void ){
+ 4496              		.loc 1 588 0
+ 4497              		.cfi_startproc
+ 4498              		@ Function supports interworking.
+ 4499              		@ args = 0, pretend = 0, frame = 8
+ 4500              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4501 1298 0DC0A0E1 		mov	ip, sp
+ 4502              	.LCFI50:
+ 4503              		.cfi_def_cfa_register 12
+ 4504 129c 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4505 12a0 04B04CE2 		sub	fp, ip, #4
+ 4506              		.cfi_offset 14, -8
+ 4507              		.cfi_offset 13, -12
+ 4508              		.cfi_offset 11, -16
+ 4509              	.LCFI51:
+ 4510              		.cfi_def_cfa 11, 4
+ 4511 12a4 08D04DE2 		sub	sp, sp, #8
+ 589:../proyecto.c **** 	uint16 ticks;
+ 590:../proyecto.c **** 	uart0_puts( "Lectura de pulsadores sin espera máxima usando pb_getchar():\n" );
+ 4512              		.loc 1 590 0
+ 4513 12a8 80009FE5 		ldr	r0, .L125
+ 4514 12ac FEFFFFEB 		bl	uart0_puts
+ 591:../proyecto.c **** 	    ticks = 0;
+ 4515              		.loc 1 591 0
+ 4516 12b0 0030A0E3 		mov	r3, #0
+ 4517 12b4 BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 592:../proyecto.c **** 	    while( ticks != 5 )
+ 4518              		.loc 1 592 0
+ 4519 12b8 160000EA 		b	.L119
+ 4520              	.L124:
+ 593:../proyecto.c **** 	    {
+ 594:../proyecto.c **** 	        switch( pb_getchar() )
+ 4521              		.loc 1 594 0
+ 4522 12bc FEFFFFEB 		bl	pb_getchar
+ 4523 12c0 0030A0E1 		mov	r3, r0
+ 4524 12c4 800053E3 		cmp	r3, #128
+ 4525 12c8 0B00000A 		beq	.L122
+ 4526 12cc FF0053E3 		cmp	r3, #255
+ 4527 12d0 0200000A 		beq	.L123
+ 4528 12d4 400053E3 		cmp	r3, #64
+ 4529 12d8 0300000A 		beq	.L121
+ 4530 12dc 0A0000EA 		b	.L120
+ 4531              	.L123:
+ 595:../proyecto.c **** 	        {
+ 596:../proyecto.c **** 	            case PB_FAILURE:
+ 597:../proyecto.c **** 	                uart0_puts( "  - Error de lectura\n" );
+ 4532              		.loc 1 597 0
+ 4533 12e0 4C009FE5 		ldr	r0, .L125+4
+ 4534 12e4 FEFFFFEB 		bl	uart0_puts
+ 598:../proyecto.c **** 	                break;
+ 4535              		.loc 1 598 0
+ 4536 12e8 070000EA 		b	.L120
+ 4537              	.L121:
+ 599:../proyecto.c **** 	            case PB_LEFT:
+ 600:../proyecto.c **** 	                uart0_puts( "  - El pulsador izquierdo ha sido presionado\n" );
+ 4538              		.loc 1 600 0
+ 4539 12ec 44009FE5 		ldr	r0, .L125+8
+ 4540 12f0 FEFFFFEB 		bl	uart0_puts
+ 601:../proyecto.c **** 	                iis_pause();
+ 4541              		.loc 1 601 0
+ 4542 12f4 FEFFFFEB 		bl	iis_pause
+ 602:../proyecto.c **** 	                break;
+ 4543              		.loc 1 602 0
+ 4544 12f8 030000EA 		b	.L120
+ 4545              	.L122:
+ 603:../proyecto.c **** 	            case PB_RIGHT:
+ 604:../proyecto.c **** 	                uart0_puts( "  - El pulsador derecho ha sido presionado\n" );
+ 4546              		.loc 1 604 0
+ 4547 12fc 38009FE5 		ldr	r0, .L125+12
+ 4548 1300 FEFFFFEB 		bl	uart0_puts
+ 605:../proyecto.c **** 	                iis_continue();
+ 4549              		.loc 1 605 0
+ 4550 1304 FEFFFFEB 		bl	iis_continue
+ 606:../proyecto.c **** 	                break;
+ 4551              		.loc 1 606 0
+ 4552 1308 0000A0E1 		mov	r0, r0	@ nop
+ 4553              	.L120:
+ 607:../proyecto.c **** 	        }
+ 608:../proyecto.c **** 	        ticks++;
+ 4554              		.loc 1 608 0
+ 4555 130c BE305BE1 		ldrh	r3, [fp, #-14]	@ movhi
+ 4556 1310 013083E2 		add	r3, r3, #1
+ 4557 1314 BE304BE1 		strh	r3, [fp, #-14]	@ movhi
+ 4558              	.L119:
+ 592:../proyecto.c **** 	    while( ticks != 5 )
+ 4559              		.loc 1 592 0 discriminator 1
+ 4560 1318 BE305BE1 		ldrh	r3, [fp, #-14]
+ 4561 131c 050053E3 		cmp	r3, #5
+ 4562 1320 E5FFFF1A 		bne	.L124
+ 609:../proyecto.c **** 	    }
+ 610:../proyecto.c **** }
+ 4563              		.loc 1 610 0
+ 4564 1324 0CD04BE2 		sub	sp, fp, #12
+ 4565 1328 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4566 132c 1EFF2FE1 		bx	lr
+ 4567              	.L126:
+ 4568              		.align	2
+ 4569              	.L125:
+ 4570 1330 BC020000 		.word	.LC25
+ 4571 1334 FC020000 		.word	.LC26
+ 4572 1338 14030000 		.word	.LC27
+ 4573 133c 44030000 		.word	.LC28
+ 4574              		.cfi_endproc
+ 4575              	.LFE25:
+ 4577              		.align	2
+ 4578              		.global	isr_pbs
+ 4580              	isr_pbs:
+ 4581              	.LFB26:
+ 611:../proyecto.c **** 
+ 612:../proyecto.c **** 
+ 613:../proyecto.c **** void isr_pbs( void ){
+ 4582              		.loc 1 613 0
+ 4583              		.cfi_startproc
+ 4584              		@ Function supports interworking.
+ 4585              		@ args = 0, pretend = 0, frame = 0
+ 4586              		@ frame_needed = 1, uses_anonymous_args = 0
+ 4587 1340 0DC0A0E1 		mov	ip, sp
+ 4588              	.LCFI52:
+ 4589              		.cfi_def_cfa_register 12
+ 4590 1344 00D82DE9 		stmfd	sp!, {fp, ip, lr, pc}
+ 4591 1348 04B04CE2 		sub	fp, ip, #4
+ 4592              		.cfi_offset 14, -8
+ 4593              		.cfi_offset 13, -12
+ 4594              		.cfi_offset 11, -16
+ 4595              	.LCFI53:
+ 4596              		.cfi_def_cfa 11, 4
+ 614:../proyecto.c **** 	static boolean init = TRUE;
+ 615:../proyecto.c **** 
+ 616:../proyecto.c **** 	if(init){
+ 4597              		.loc 1 616 0
+ 4598 134c C0309FE5 		ldr	r3, .L133
+ 4599 1350 0030D3E5 		ldrb	r3, [r3, #0]	@ zero_extendqisi2
+ 4600 1354 000053E3 		cmp	r3, #0
+ 4601 1358 0300000A 		beq	.L128
+ 617:../proyecto.c **** 		init = FALSE;
+ 4602              		.loc 1 617 0
+ 4603 135c B0309FE5 		ldr	r3, .L133
+ 4604 1360 0020A0E3 		mov	r2, #0
+ 4605 1364 0020C3E5 		strb	r2, [r3, #0]
+ 4606 1368 200000EA 		b	.L129
+ 4607              	.L128:
+ 618:../proyecto.c **** 	}else{
+ 619:../proyecto.c **** 		switch( pb_scan() )
+ 4608              		.loc 1 619 0
+ 4609 136c FEFFFFEB 		bl	pb_scan
+ 4610 1370 0030A0E1 		mov	r3, r0
+ 4611 1374 800053E3 		cmp	r3, #128
+ 4612 1378 1200000A 		beq	.L131
+ 4613 137c FF0053E3 		cmp	r3, #255
+ 4614 1380 0200000A 		beq	.L132
+ 4615 1384 400053E3 		cmp	r3, #64
+ 4616 1388 0400000A 		beq	.L130
+ 4617 138c 170000EA 		b	.L129
+ 4618              	.L132:
+ 620:../proyecto.c **** 		{
+ 621:../proyecto.c **** 		case PB_FAILURE:
+ 622:../proyecto.c **** 			EXTINTPND = BIT_LEFTPB | BIT_RIGHTPB;
+ 4619              		.loc 1 622 0
+ 4620 1390 80309FE5 		ldr	r3, .L133+4
+ 4621 1394 0C20A0E3 		mov	r2, #12
+ 4622 1398 002083E5 		str	r2, [r3, #0]
+ 623:../proyecto.c **** 			break;
+ 4623              		.loc 1 623 0
+ 4624 139c 130000EA 		b	.L129
+ 4625              	.L130:
+ 624:../proyecto.c **** 		case PB_LEFT:
+ 625:../proyecto.c **** 			EXTINTPND = BIT_LEFTPB;
+ 4626              		.loc 1 625 0
+ 4627 13a0 70309FE5 		ldr	r3, .L133+4
+ 4628 13a4 0420A0E3 		mov	r2, #4
+ 4629 13a8 002083E5 		str	r2, [r3, #0]
+ 626:../proyecto.c **** 			uart0_puts("boton izquierdo pausa\n");
+ 4630              		.loc 1 626 0
+ 4631 13ac 68009FE5 		ldr	r0, .L133+8
+ 4632 13b0 FEFFFFEB 		bl	uart0_puts
+ 627:../proyecto.c **** 			music = FALSE;
+ 4633              		.loc 1 627 0
+ 4634 13b4 64309FE5 		ldr	r3, .L133+12
+ 4635 13b8 0020A0E3 		mov	r2, #0
+ 4636 13bc 0020C3E5 		strb	r2, [r3, #0]
+ 628:../proyecto.c **** 			iis_pause();
+ 4637              		.loc 1 628 0
+ 4638 13c0 FEFFFFEB 		bl	iis_pause
+ 629:../proyecto.c **** 			break;
+ 4639              		.loc 1 629 0
+ 4640 13c4 090000EA 		b	.L129
+ 4641              	.L131:
+ 630:../proyecto.c **** 		case PB_RIGHT:
+ 631:../proyecto.c **** 			uart0_puts("boton derecho play\n");
+ 4642              		.loc 1 631 0
+ 4643 13c8 54009FE5 		ldr	r0, .L133+16
+ 4644 13cc FEFFFFEB 		bl	uart0_puts
+ 632:../proyecto.c **** 			music = TRUE;
+ 4645              		.loc 1 632 0
+ 4646 13d0 48309FE5 		ldr	r3, .L133+12
+ 4647 13d4 0120A0E3 		mov	r2, #1
+ 4648 13d8 0020C3E5 		strb	r2, [r3, #0]
+ 633:../proyecto.c **** 			iis_continue();
+ 4649              		.loc 1 633 0
+ 4650 13dc FEFFFFEB 		bl	iis_continue
+ 634:../proyecto.c **** 			EXTINTPND = BIT_RIGHTPB;
+ 4651              		.loc 1 634 0
+ 4652 13e0 30309FE5 		ldr	r3, .L133+4
+ 4653 13e4 0820A0E3 		mov	r2, #8
+ 4654 13e8 002083E5 		str	r2, [r3, #0]
+ 635:../proyecto.c **** 			break;
+ 4655              		.loc 1 635 0
+ 4656 13ec 0000A0E1 		mov	r0, r0	@ nop
+ 4657              	.L129:
+ 636:../proyecto.c **** 		}
+ 637:../proyecto.c **** 	}
+ 638:../proyecto.c **** 
+ 639:../proyecto.c **** 
+ 640:../proyecto.c ****     flagPbs = TRUE;
+ 4658              		.loc 1 640 0
+ 4659 13f0 30309FE5 		ldr	r3, .L133+20
+ 4660 13f4 0120A0E3 		mov	r2, #1
+ 4661 13f8 0020C3E5 		strb	r2, [r3, #0]
+ 641:../proyecto.c ****     I_ISPC = BIT_PB;
+ 4662              		.loc 1 641 0
+ 4663 13fc 28309FE5 		ldr	r3, .L133+24
+ 4664 1400 0226A0E3 		mov	r2, #2097152
+ 4665 1404 002083E5 		str	r2, [r3, #0]
+ 642:../proyecto.c **** }
+ 4666              		.loc 1 642 0
+ 4667 1408 0CD04BE2 		sub	sp, fp, #12
+ 4668 140c 00689DE8 		ldmfd	sp, {fp, sp, lr}
+ 4669 1410 1EFF2FE1 		bx	lr
+ 4670              	.L134:
+ 4671              		.align	2
+ 4672              	.L133:
+ 4673 1414 00000000 		.word	init.4377
+ 4674 1418 5400D201 		.word	30539860
+ 4675 141c 94010000 		.word	.LC8
+ 4676 1420 00000000 		.word	music
+ 4677 1424 AC010000 		.word	.LC9
+ 4678 1428 00000000 		.word	flagPbs
+ 4679 142c 2400E001 		.word	31457316
+ 4680              		.cfi_endproc
+ 4681              	.LFE26:
+ 4683              		.data
+ 4686              	init.4377:
+ 4687 0000 01       		.byte	1
+ 4690              	init.4318:
+ 4691 0001 01       		.byte	1
+ 4692              		.align	1
+ 4695              	cont5ticks.4242:
+ 4696 0002 0500     		.short	5
+ 4697              		.align	1
+ 4700              	cont40ticks.4241:
+ 4701 0004 2800     		.short	40
+ 4702              		.text
+ 4703              	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 proyecto.c
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2177   .rodata:00000000 firemen
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2174   .rodata:00000000 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2195   .rodata:00000020 dummy
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2261   .rodata:000000c0 crash
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2279   .rodata:000000e0 life
+                            *COM*:00000808 fifo
+                            *COM*:00000001 gameOver
+                            *COM*:00000001 dummyPos
+                            *COM*:00000002 count
+                            *COM*:00000004 scancode
+                            *COM*:00000001 firemanPos
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2303   .bss:00000000 hearts
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2304   .bss:00000000 $d
+                            *COM*:00000001 win_game
+                            *COM*:00000001 lose_game
+                            *COM*:00000001 finalizar
+                            *COM*:00000001 caida
+                            *COM*:00000001 music
+                            *COM*:00000001 flagPbs
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2346   .text:00000000 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2349   .text:00000000 main
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4250   .text:0000112c exit_game
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4436   .text:00001258 initMusic
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4047   .text:00000f68 start_game
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3319   .text:0000094c fifo_init
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3452   .text:00000a48 fifo_dequeue
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3544   .text:00000b08 fifo_is_empty
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4381   .text:000011ec lose
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4312   .text:00001180 win
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2589   .text:00000274 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2908   .text:00000540 isr_tick
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2611   .text:000002c0 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2614   .text:000002c0 dummy_init
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2993   .text:00000600 sprite_plot
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2646   .text:000002f0 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2651   .text:000002f8 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2654   .text:000002f8 dummy_move
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3053   .text:00000698 sprite_clear
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3362   .text:0000098c fifo_enqueue
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2794   .text:0000046c $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2850   .text:000004cc count_inc
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4091   .text:00000fa0 start_play
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3891   .text:00000dd8 lose_life
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2804   .text:00000488 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2807   .text:00000488 count_init
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2842   .text:000004c4 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2847   .text:000004cc $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2899   .text:00000534 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2905   .text:00000540 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2982   .text:000005ec $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4695   .data:00000002 cont5ticks.4242
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3681   .text:00000bd0 teclaMoveFireman
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4700   .data:00000004 cont40ticks.4241
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:2990   .text:00000600 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3104   .text:0000070c lcd_putBmp
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3246   .text:000008a8 lcd_clearWindow
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3239   .text:000008a4 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3243   .text:000008a8 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3355   .text:00000988 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3359   .text:0000098c $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3445   .text:00000a44 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3449   .text:00000a48 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3537   .text:00000b04 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3541   .text:00000b08 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3578   .text:00000b44 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3582   .text:00000b48 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3585   .text:00000b48 fifo_is_full
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3620   .text:00000b88 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3625   .text:00000b90 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3628   .text:00000b90 init_fireman
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3662   .text:00000bc8 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3678   .text:00000bd0 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3821   .text:00000d50 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4690   .data:00000001 init.4318
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3831   .text:00000d6c $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3834   .text:00000d6c draw_life
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3884   .text:00000dd4 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:3888   .text:00000dd8 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4034   .text:00000f4c $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4044   .text:00000f68 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4084   .text:00000f9c $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4088   .text:00000fa0 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4220   .text:000010f8 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4247   .text:0000112c $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4289   .text:00001174 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4309   .text:00001180 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4357   .text:000011dc $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4378   .text:000011ec $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4426   .text:00001248 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4433   .text:00001258 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4471   .text:00001290 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4491   .text:00001298 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4494   .text:00001298 pulsador
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4570   .text:00001330 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4577   .text:00001340 $a
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4580   .text:00001340 isr_pbs
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4673   .text:00001414 $d
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4686   .data:00000000 init.4377
+C:\Users\VUser\AppData\Local\Temp\ccn9AFLh.s:4692   .data:00000002 $d
+                     .debug_frame:00000010 $d
+
+UNDEFINED SYMBOLS
+sys_init
+timers_init
+uart0_init
+lcd_init
+keypad_init
+uda1341ts_init
+iis_init
+lcd_on
+lcd_clear
+lcd_draw_box
+lcd_puts_x2
+uart0_puts
+keypad_getchar
+timer0_open_tick
+timer0_close
+lcd_putint_x2
+lcd_buffer
+lcd_putpixel
+keypad_pressed
+lcd_putWallpaper
+sw_delay_ms
+uda1341ts_setvol
+iis_playWawFile
+pb_getchar
+iis_pause
+iis_continue
+pb_scan
